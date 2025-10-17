@@ -43,7 +43,7 @@
       "is_verified": true,
       "decimals": 18,
       "is_native": true,
-      "token_type": "Coin",
+      "token_type": "COIN",
       "upgradeable": false,
       "has_blue_checkmark": true,
       "gas_sponsored_strategy": 0,
