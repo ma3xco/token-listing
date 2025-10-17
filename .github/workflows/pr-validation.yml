@@ -26,8 +26,10 @@ jobs:
       - name: Run validation script
         id: validation
         run: |
-          OUTPUT=$(go run ./scripts/validate/validate.go 2>&1) || true
+          set +e
+          OUTPUT=$(go run ./scripts/validate/validate.go 2>&1)
           EXIT_CODE=$?
+          set -e
           echo "exit_code=$EXIT_CODE" >> $GITHUB_OUTPUT
           echo "output_body<<EOF" >> $GITHUB_OUTPUT
           echo "$OUTPUT" >> $GITHUB_OUTPUT
