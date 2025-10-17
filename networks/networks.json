@@ -1,0 +1,112 @@
+[
+	{
+	"id": 1,
+	"chain_id": 0,
+	"network_type": 4,
+	"coin_type": 0,
+	"name": "Bitcoin",
+	"symbol": "BTC",
+	"decimals": 8,
+	"icon_png_url": "https://file.matrix.app/coins/bitcoin-btc-logo.png",
+	"icon_svg_url": "https://file.matrix.app/coins/bitcoin-btc-logo.svg",
+	"is_testnet": false,
+	"is_active": true,
+	"address_regex": "^[13][a-km-zA-HJ-NP-Z1-9]{25,34}$",
+	"explorer": {
+	  "base_url": "https://blockstream.info",
+	  "address_template": "/address/%s",
+	  "transaction_template": "/tx/%s",
+	  "token_template": "/token/%s",
+	  "block_template": "/block/%s"
+	},
+	"coin_marketcap_id": 1
+  },
+  {
+	"id": 2,
+	"chain_id": 1,
+	"network_type": 1,
+	"coin_type": 60,
+	"name": "Ethereum",
+	"symbol": "ETH",
+	"decimals": 18,
+	"icon_png_url": "https://file.matrix.app/coins/ethereum-eth-logo.png",
+	"icon_svg_url": "https://file.matrix.app/coins/ethereum-eth-logo.svg",
+	"is_testnet": false,
+	"is_active": true,
+	"address_regex": "^0x[a-fA-F0-9]{40}$",
+	"explorer": {
+	  "base_url": "https://etherscan.io",
+	  "address_template": "/address/%s",
+	  "transaction_template": "/tx/%s",
+	  "token_template": "/token/%s",
+	  "block_template": "/block/%s"
+	},
+	"coin_marketcap_id": 1027
+  },
+  {
+	"id": 3,
+	"chain_id": 56,
+	"network_type": 1,
+	"coin_type": 714,
+	"name": "BNB Smart Chain",
+	"symbol": "BNB",
+	"decimals": 18,
+	"icon_png_url": "https://file.matrix.app/coins/bnb-bnb-logo.png",
+	"icon_svg_url": "https://file.matrix.app/coins/bnb-bnb-logo.svg",
+	"is_testnet": false,
+	"is_active": true,
+	"address_regex": "^0x[a-fA-F0-9]{40}$",
+	"explorer": {
+	  "base_url": "https://bscscan.com",
+	  "address_template": "/address/%s",
+	  "transaction_template": "/tx/%s",
+	  "token_template": "/token/%s",
+	  "block_template": "/block/%s"
+	},
+	"coin_marketcap_id": 1839
+  },
+  {
+	"id": 4,
+	"chain_id": 101,
+	"network_type": 3,
+	"coin_type": 501,
+	"name": "Solana",
+	"symbol": "SOL",
+	"decimals": 9,
+	"icon_png_url": "https://file.matrix.app/coins/solana-sol-logo.png",
+	"icon_svg_url": "https://file.matrix.app/coins/solana-sol-logo.svg",
+	"is_testnet": false,
+	"is_active": true,
+	"address_regex": "^[1-9A-HJ-NP-Za-km-z]{32,44}$",
+	"explorer": {
+	  "base_url": "https://explorer.solana.com",
+	  "address_template": "/address/%s",
+	  "transaction_template": "/tx/%s",
+	  "token_template": "/token/%s",
+	  "block_template": "/block/%s"
+	},
+	"coin_marketcap_id": 5426
+  },
+  {
+	"id": 5,
+	"chain_id": 728126428,
+	"network_type": 2,
+	"coin_type": 195,
+	"name": "Tron",
+	"symbol": "TRX",
+	"decimals": 6,
+	"icon_png_url": "https://file.matrix.app/coins/tron-trx-logo.png",
+	"icon_svg_url": "https://file.matrix.app/coins/tron-trx-logo.svg",
+	"is_testnet": false,
+	"is_active": true,
+	"address_regex": "^T[A-Za-z1-9]{33}$",
+	"explorer": {
+	  "base_url": "https://tronscan.org",
+	  "address_template": "/#/address/%s",
+	  "transaction_template": "/#/transaction/%s",
+	  "token_template": "/#/token/%s",
+	  "block_template": "/#/block/%s"
+	},
+	"coin_marketcap_id": 1958
+  }
+]
