@@ -1,0 +1,110 @@
+{
+    // Human-readable name of the token (e.g., "Ethereum", "USD Coin")
+    "name": "TokenName",
+    
+    // Symbol of the token (e.g., "ETH", "USDC")
+    "symbol": "TKN",
+
+    // Whether the token is a stable token.
+    "is_stable_token": false,
+    
+    // The UID of the wrapped token. leave empty if not wrapped.
+    "wrapped_token_uid": "TokenUid",
+
+    // The URL of the logo of the token.
+    "logo_png_url": "https://example.com/logo.png",
+    "logo_svg_url": "https://example.com/logo.svg",
+
+    // The description of the token.
+    "description": "Description of the token.",
+
+    // The ID of the token on CoinMarketCap. leave -1 if not on CoinMarketCap.
+    "coin_market_cap_id": -1,
+
+    // Whether the token is featured. if the value is true, then the PR will be rejected.
+    "is_featured": false,
+
+    // The order index of the token. the lower the index, the higher the priority.
+    // it should be greater than or equal to 100000.
+    "order_index": 100000,
+
+    // The website of the token.
+    "website_url": "https://example.com",
+
+    // the X (Twitter) url of the token.
+    "x_url": "https://x.com/example",
+
+    // the discord url of the token.
+    "discord_url": "https://discord.com/example",
+
+    // the whitepaper url of the token.
+    "whitepaper_url": "https://example.com/whitepaper.pdf",
+
+    // the live price url of the token. if the token is not listed on CoinMarketCap, then Required.
+    // Historical price will be fetched from the CoinMarketCap only.
+    "live_price_url": "https://example.com/live_price.json",
+
+    // the tags of the token.
+    "tags" : ["tag1", "tag2", "tag3"],
+
+    // Whether the token is a scam.
+    "is_scam": false,
+
+    // Whether the token is disabled.
+    // the token might be disabled due to security issues or other reasons.
+    // the disabled token will not be displayed in the wallet.
+    "is_disabled": false,
+
+    // the addresses of the token on the networks.
+    "addresses": [
+        // 2 is the ethereum network, reffer to networks directory for other networks.
+        {
+
+            // The address of the token on the network.
+            "address": "0x0000000000000000000000000000000000000000",
+
+            // The UID of the token on the network. must be the same as the token uid.
+            "token_uid": "TokenUid",
+
+            // The ID of the network. refer to networks directory for other networks.
+            "network_id": 2,
+
+            // Whether the token is verified on the network.
+            // the token verification must satisfy the verification criteria.
+            "is_verified": false,
+            
+            // The number of decimals used to get its user representation.
+            "decimals": 18,
+
+            // Whether the token is the native token of the network.
+            "is_native": false,
+            
+            // the type of the token, ERC20, ERC721, ERC1155, SPL, SPL2022,
+            // for the Tron, BNB and other ethereum-like networks should use ERC prefix.
+            "token_type": "ERC20",
+
+            // Whether the token has a proxy.
+            "upgradeable": false,
+
+            // Whether the token has a blue checkmark.
+            "has_blue_checkmark": false,
+
+            // The gas sponsored strategy of the token.
+            // 0: no gas sponsored, 1: full matrix strategy, 2: Authorized transfer, 3: permit, 4: gas-transfer, 5: co-signer(SOL only)
+            "gas_sponsored_strategy": 0,
+
+            // The name of the token. must be the same as the token.
+            "name": "TokenName",
+
+            // The symbol of the token. Shall be the same as the token.
+            "symbol": "TKN",
+
+            // The URL of the logo of the token. PNG is required
+            "logo_png_url": "https://example.com/logo.png",
+
+            // The URL of the logo of the token in the form of svg.
+            "logo_svg_url": "https://example.com/logo.svg"
+            
+        }
+    ]
+}

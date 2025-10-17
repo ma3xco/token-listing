@@ -1,0 +1,40 @@
+{
+  "uuid": "ac2431902b3bd6aa319b6aaebb6452d70334f22fcae1cede7accc90307428c",
+  "name": "JasmyCoin",
+  "symbol": "JASMY",
+  "has_gas_sponsored": false,
+  "is_stable_token": false,
+  "wrapped_token_uuid": "",
+  "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/8425.png",
+  "logo_svg_url": "",
+  "description": "JasmyCoin (JASMY) is a cryptocurrency launched in 2016and operates on the Ethereum platform. JasmyCoin has a current supply of 50,000,000,000 with 49,444,999,677.16957912 in circulation. The last known price of JasmyCoin is 0.00979251 USD and is down -3.75 over the last 24 hours. It is currently trading on 327 active market(s) with $47,705,867.44 traded over the last 24 hours. More information can be found at https://www.jasmy.co.jp/en_company.html.",
+  "coin_market_cap_id": 8425,
+  "is_featured": false,
+  "order_index": 2300,
+  "website_url": "https://www.jasmy.co.jp/en_company.html",
+  "x_url": "https://twitter.com/JasmyMGT",
+  "discord_url": "",
+  "whitepaper_url": "",
+  "live_price_url": "",
+  "tags": [],
+  "is_scam": false,
+  "is_disabled": false,
+  "addresses": [
+    {
+      "address": "0x7420b4b9a0110cdc71fb720908340c03f9bc03ec",
+      "token_uid": "ac2431902b3bd6aa319b6aaebb6452d70334f22fcae1cede7accc90307428c",
+      "network_id": 2,
+      "is_verified": true,
+      "decimals": 18,
+      "is_native": false,
+      "token_type": "ERC20",
+      "upgradeable": false,
+      "has_blue_checkmark": true,
+      "gas_sponsored_strategy": 0,
+      "name": "JasmyCoin",
+      "symbol": "JASMY",
+      "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/8425.png",
+      "logo_svg_url": ""
+    }
+  ]
+}

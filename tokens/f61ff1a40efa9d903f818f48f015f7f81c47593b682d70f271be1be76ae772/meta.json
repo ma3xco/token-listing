@@ -1,0 +1,40 @@
+{
+  "uuid": "f61ff1a40efa9d903f818f48f015f7f81c47593b682d70f271be1be76ae772",
+  "name": "dogwifhat",
+  "symbol": "WIF",
+  "has_gas_sponsored": false,
+  "is_stable_token": false,
+  "wrapped_token_uuid": "",
+  "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/28752.png",
+  "logo_svg_url": "",
+  "description": "dogwifhat (WIF) is a cryptocurrency and operates on the Solana platform. dogwifhat has a current supply of 998,839,911.007309. The last known price of dogwifhat is 0.50275651 USD and is down -5.76 over the last 24 hours. It is currently trading on 746 active market(s) with $299,521,284.99 traded over the last 24 hours. More information can be found at https://dogwifhat.us/.",
+  "coin_market_cap_id": 28752,
+  "is_featured": false,
+  "order_index": 2100,
+  "website_url": "https://dogwifhat.us/",
+  "x_url": "https://twitter.com/dogwifcoin",
+  "discord_url": "",
+  "whitepaper_url": "",
+  "live_price_url": "",
+  "tags": [],
+  "is_scam": false,
+  "is_disabled": false,
+  "addresses": [
+    {
+      "address": "EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm",
+      "token_uid": "f61ff1a40efa9d903f818f48f015f7f81c47593b682d70f271be1be76ae772",
+      "network_id": 4,
+      "is_verified": true,
+      "decimals": 6,
+      "is_native": false,
+      "token_type": "ERC20",
+      "upgradeable": false,
+      "has_blue_checkmark": true,
+      "gas_sponsored_strategy": 0,
+      "name": "dogwifhat",
+      "symbol": "WIF",
+      "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/28752.png",
+      "logo_svg_url": ""
+    }
+  ]
+}

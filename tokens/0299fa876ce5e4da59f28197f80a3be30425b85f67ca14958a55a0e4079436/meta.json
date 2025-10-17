@@ -1,0 +1,40 @@
+{
+  "uuid": "0299fa876ce5e4da59f28197f80a3be30425b85f67ca14958a55a0e4079436",
+  "name": "Bitcoin",
+  "symbol": "BTC",
+  "has_gas_sponsored": false,
+  "is_stable_token": false,
+  "wrapped_token_uuid": "",
+  "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/1.png",
+  "logo_svg_url": "",
+  "description": "Bitcoin (BTC) is a cryptocurrency launched in 2010. Users are able to generate BTC through the process of mining. Bitcoin has a current supply of 19,935,981. The last known price of Bitcoin is 106,477.73132767 USD and is down -2.27 over the last 24 hours. It is currently trading on 12433 active market(s) with $108,182,974,744.97 traded over the last 24 hours. More information can be found at https://bitcoin.org/.",
+  "coin_market_cap_id": 1,
+  "is_featured": true,
+  "order_index": 20,
+  "website_url": "https://bitcoin.org/",
+  "x_url": "",
+  "discord_url": "",
+  "whitepaper_url": "",
+  "live_price_url": "",
+  "tags": [],
+  "is_scam": false,
+  "is_disabled": false,
+  "addresses": [
+    {
+      "address": "BTC",
+      "token_uid": "0299fa876ce5e4da59f28197f80a3be30425b85f67ca14958a55a0e4079436",
+      "network_id": 1,
+      "is_verified": true,
+      "decimals": 8,
+      "is_native": true,
+      "token_type": "Coin",
+      "upgradeable": false,
+      "has_blue_checkmark": true,
+      "gas_sponsored_strategy": 0,
+      "name": "Bitcoin",
+      "symbol": "BTC",
+      "logo_png_url": "https://file.matrix.app/coins/bitcoin-btc-logo.png",
+      "logo_svg_url": "https://file.matrix.app/coins/bitcoin-btc-logo.svg"
+    }
+  ]
+}

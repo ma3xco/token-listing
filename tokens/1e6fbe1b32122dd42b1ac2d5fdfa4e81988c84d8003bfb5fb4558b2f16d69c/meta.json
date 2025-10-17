@@ -1,0 +1,40 @@
+{
+  "uuid": "1e6fbe1b32122dd42b1ac2d5fdfa4e81988c84d8003bfb5fb4558b2f16d69c",
+  "name": "Amp",
+  "symbol": "AMP",
+  "has_gas_sponsored": false,
+  "is_stable_token": false,
+  "wrapped_token_uuid": "",
+  "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/6945.png",
+  "logo_svg_url": "",
+  "description": "Amp (AMP) is a cryptocurrency launched in 2020and operates on the Ethereum platform. Amp has a current supply of 99,720,000,365.92805384 with 84,282,108,820.2134 in circulation. The last known price of Amp is 0.00246483 USD and is down -5.78 over the last 24 hours. It is currently trading on 179 active market(s) with $13,576,105.10 traded over the last 24 hours. More information can be found at https://amp.xyz.",
+  "coin_market_cap_id": 6945,
+  "is_featured": false,
+  "order_index": 3620,
+  "website_url": "https://amp.xyz",
+  "x_url": "https://twitter.com/ampdotxyz",
+  "discord_url": "",
+  "whitepaper_url": "",
+  "live_price_url": "",
+  "tags": [],
+  "is_scam": false,
+  "is_disabled": false,
+  "addresses": [
+    {
+      "address": "0xff20817765cb7f73d4bde2e66e067e58d11095c2",
+      "token_uid": "1e6fbe1b32122dd42b1ac2d5fdfa4e81988c84d8003bfb5fb4558b2f16d69c",
+      "network_id": 2,
+      "is_verified": true,
+      "decimals": 18,
+      "is_native": false,
+      "token_type": "ERC20",
+      "upgradeable": false,
+      "has_blue_checkmark": true,
+      "gas_sponsored_strategy": 0,
+      "name": "Amp",
+      "symbol": "AMP",
+      "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/6945.png",
+      "logo_svg_url": ""
+    }
+  ]
+}

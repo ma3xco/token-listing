@@ -1,0 +1,40 @@
+{
+  "uuid": "3e07534d7c3aead62a005d00af17b9f71b88c454772536c0ba5abe7a7f0902",
+  "name": "Filecoin",
+  "symbol": "FIL",
+  "has_gas_sponsored": false,
+  "is_stable_token": false,
+  "wrapped_token_uuid": "",
+  "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/2280.png",
+  "logo_svg_url": "",
+  "description": "Filecoin (FIL) is a cryptocurrency launched in 2020. Users are able to generate FIL through the process of mining. Filecoin has a current supply of 1,958,882,152 with 699,618,976 in circulation. The last known price of Filecoin is 1.45602218 USD and is down -6.37 over the last 24 hours. It is currently trading on 645 active market(s) with $167,412,290.58 traded over the last 24 hours. More information can be found at https://filecoin.io/.",
+  "coin_market_cap_id": 2280,
+  "is_featured": false,
+  "order_index": 1360,
+  "website_url": "https://filecoin.io/",
+  "x_url": "https://twitter.com/Filecoin",
+  "discord_url": "",
+  "whitepaper_url": "",
+  "live_price_url": "",
+  "tags": [],
+  "is_scam": false,
+  "is_disabled": false,
+  "addresses": [
+    {
+      "address": "0x0d8ce2a99bb6e3b7db580ed848240e4a0f9ae153",
+      "token_uid": "3e07534d7c3aead62a005d00af17b9f71b88c454772536c0ba5abe7a7f0902",
+      "network_id": 3,
+      "is_verified": true,
+      "decimals": 18,
+      "is_native": false,
+      "token_type": "ERC20",
+      "upgradeable": false,
+      "has_blue_checkmark": true,
+      "gas_sponsored_strategy": 0,
+      "name": "Filecoin",
+      "symbol": "FIL",
+      "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/2280.png",
+      "logo_svg_url": ""
+    }
+  ]
+}

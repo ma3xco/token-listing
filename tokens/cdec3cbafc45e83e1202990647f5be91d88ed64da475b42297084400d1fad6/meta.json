@@ -1,0 +1,40 @@
+{
+  "uuid": "cdec3cbafc45e83e1202990647f5be91d88ed64da475b42297084400d1fad6",
+  "name": "Worldcoin",
+  "symbol": "WLD",
+  "has_gas_sponsored": false,
+  "is_stable_token": false,
+  "wrapped_token_uuid": "",
+  "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/13502.png",
+  "logo_svg_url": "",
+  "description": "Worldcoin (WLD) is a cryptocurrency launched in 2023and operates on the Ethereum platform. Worldcoin has a current supply of 10,000,000,000 with 2,219,102,379.1426315 in circulation. The last known price of Worldcoin is 0.87504542 USD and is down -5.08 over the last 24 hours. It is currently trading on 492 active market(s) with $270,882,988.40 traded over the last 24 hours. More information can be found at https://worldcoin.org/.",
+  "coin_market_cap_id": 13502,
+  "is_featured": false,
+  "order_index": 920,
+  "website_url": "https://worldcoin.org/",
+  "x_url": "https://twitter.com/worldcoin",
+  "discord_url": "",
+  "whitepaper_url": "",
+  "live_price_url": "",
+  "tags": [],
+  "is_scam": false,
+  "is_disabled": false,
+  "addresses": [
+    {
+      "address": "0x163f8c2467924be0ae7b5347228cabf260318753",
+      "token_uid": "cdec3cbafc45e83e1202990647f5be91d88ed64da475b42297084400d1fad6",
+      "network_id": 2,
+      "is_verified": true,
+      "decimals": 18,
+      "is_native": false,
+      "token_type": "ERC20",
+      "upgradeable": false,
+      "has_blue_checkmark": true,
+      "gas_sponsored_strategy": 0,
+      "name": "Worldcoin",
+      "symbol": "WLD",
+      "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/13502.png",
+      "logo_svg_url": ""
+    }
+  ]
+}

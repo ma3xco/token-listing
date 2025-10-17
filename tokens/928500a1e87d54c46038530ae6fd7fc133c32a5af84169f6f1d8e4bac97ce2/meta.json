@@ -1,0 +1,40 @@
+{
+  "uuid": "928500a1e87d54c46038530ae6fd7fc133c32a5af84169f6f1d8e4bac97ce2",
+  "name": "Sky",
+  "symbol": "SKY",
+  "has_gas_sponsored": false,
+  "is_stable_token": false,
+  "wrapped_token_uuid": "",
+  "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/33038.png",
+  "logo_svg_url": "",
+  "description": "Sky (SKY) is a cryptocurrency and operates on the Ethereum platform. Sky has a current supply of 23,462,665,147.36596656 with 23,396,134,128.01058052 in circulation. The last known price of Sky is 0.05970596 USD and is down -0.69 over the last 24 hours. It is currently trading on 174 active market(s) with $33,517,857.41 traded over the last 24 hours. More information can be found at https://sky.money/.",
+  "coin_market_cap_id": 33038,
+  "is_featured": false,
+  "order_index": 1100,
+  "website_url": "https://sky.money/",
+  "x_url": "https://twitter.com/SkyEcosystem",
+  "discord_url": "",
+  "whitepaper_url": "",
+  "live_price_url": "",
+  "tags": [],
+  "is_scam": false,
+  "is_disabled": false,
+  "addresses": [
+    {
+      "address": "0x56072c95faa701256059aa122697b133aded9279",
+      "token_uid": "928500a1e87d54c46038530ae6fd7fc133c32a5af84169f6f1d8e4bac97ce2",
+      "network_id": 2,
+      "is_verified": true,
+      "decimals": 18,
+      "is_native": false,
+      "token_type": "ERC20",
+      "upgradeable": false,
+      "has_blue_checkmark": true,
+      "gas_sponsored_strategy": 0,
+      "name": "Sky",
+      "symbol": "SKY",
+      "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/33038.png",
+      "logo_svg_url": ""
+    }
+  ]
+}

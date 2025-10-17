@@ -1,0 +1,40 @@
+{
+  "uuid": "affef64fa0f621328f89ad9eecb3d0d1d1013878be77512c3fdd8db0d6939c",
+  "name": "Toshi",
+  "symbol": "TOSHI",
+  "has_gas_sponsored": false,
+  "is_stable_token": false,
+  "wrapped_token_uuid": "",
+  "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/27750.png",
+  "logo_svg_url": "",
+  "description": "Toshi (TOSHI) is a cryptocurrency launched in 2023and operates on the BNB Smart Chain (BEP20) platform. Toshi has a current supply of 420,690,000,000 with 420,676,067,433.13285235 in circulation. The last known price of Toshi is 0.00066755 USD and is down -6.12 over the last 24 hours. It is currently trading on 247 active market(s) with $52,840,942.02 traded over the last 24 hours. More information can be found at https://www.toshithecat.com/.",
+  "coin_market_cap_id": 27750,
+  "is_featured": false,
+  "order_index": 3040,
+  "website_url": "https://www.toshithecat.com/",
+  "x_url": "https://twitter.com/Toshi_base",
+  "discord_url": "",
+  "whitepaper_url": "",
+  "live_price_url": "",
+  "tags": [],
+  "is_scam": false,
+  "is_disabled": false,
+  "addresses": [
+    {
+      "address": "0x6a2608dabe09bc1128eec7275b92dfb939d5db3f",
+      "token_uid": "affef64fa0f621328f89ad9eecb3d0d1d1013878be77512c3fdd8db0d6939c",
+      "network_id": 3,
+      "is_verified": true,
+      "decimals": 18,
+      "is_native": false,
+      "token_type": "ERC20",
+      "upgradeable": false,
+      "has_blue_checkmark": true,
+      "gas_sponsored_strategy": 0,
+      "name": "Toshi",
+      "symbol": "TOSHI",
+      "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/27750.png",
+      "logo_svg_url": ""
+    }
+  ]
+}

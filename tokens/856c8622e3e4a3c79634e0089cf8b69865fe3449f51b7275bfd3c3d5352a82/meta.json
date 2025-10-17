@@ -1,0 +1,40 @@
+{
+  "uuid": "856c8622e3e4a3c79634e0089cf8b69865fe3449f51b7275bfd3c3d5352a82",
+  "name": "ApeCoin",
+  "symbol": "APE",
+  "has_gas_sponsored": false,
+  "is_stable_token": false,
+  "wrapped_token_uuid": "",
+  "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/18876.png",
+  "logo_svg_url": "",
+  "description": "ApeCoin (APE) is a cryptocurrency launched in 2022and operates on the Ethereum platform. ApeCoin has a current supply of 1,000,000,000 with 752,651,515 in circulation. The last known price of ApeCoin is 0.38577143 USD and is down -4.36 over the last 24 hours. It is currently trading on 534 active market(s) with $72,191,431.83 traded over the last 24 hours. More information can be found at http://apecoin.com/.",
+  "coin_market_cap_id": 18876,
+  "is_featured": false,
+  "order_index": 2960,
+  "website_url": "http://apecoin.com/",
+  "x_url": "https://twitter.com/apecoin",
+  "discord_url": "",
+  "whitepaper_url": "",
+  "live_price_url": "",
+  "tags": [],
+  "is_scam": false,
+  "is_disabled": false,
+  "addresses": [
+    {
+      "address": "0x4d224452801aced8b2f0aebe155379bb5d594381",
+      "token_uid": "856c8622e3e4a3c79634e0089cf8b69865fe3449f51b7275bfd3c3d5352a82",
+      "network_id": 2,
+      "is_verified": true,
+      "decimals": 18,
+      "is_native": false,
+      "token_type": "ERC20",
+      "upgradeable": false,
+      "has_blue_checkmark": true,
+      "gas_sponsored_strategy": 0,
+      "name": "ApeCoin",
+      "symbol": "APE",
+      "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/18876.png",
+      "logo_svg_url": ""
+    }
+  ]
+}

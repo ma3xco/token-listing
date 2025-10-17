@@ -1,0 +1,40 @@
+{
+  "uuid": "f64e9d6d70b70ee2c6863947f73ee73bad13ac13e7f451cd42ac53ef4baa7a",
+  "name": "ether.fi",
+  "symbol": "ETHFI",
+  "has_gas_sponsored": false,
+  "is_stable_token": false,
+  "wrapped_token_uuid": "",
+  "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/29814.png",
+  "logo_svg_url": "",
+  "description": "ether.fi (ETHFI) is a cryptocurrency launched in 2023and operates on the Ethereum platform. ether.fi has a current supply of 1,000,000,000 with 562,051,980 in circulation. The last known price of ether.fi is 1.06934176 USD and is down -7.14 over the last 24 hours. It is currently trading on 296 active market(s) with $93,113,999.73 traded over the last 24 hours. More information can be found at https://www.ether.fi/.",
+  "coin_market_cap_id": 29814,
+  "is_featured": false,
+  "order_index": 1840,
+  "website_url": "https://www.ether.fi/",
+  "x_url": "https://twitter.com/ether_fi",
+  "discord_url": "",
+  "whitepaper_url": "",
+  "live_price_url": "",
+  "tags": [],
+  "is_scam": false,
+  "is_disabled": false,
+  "addresses": [
+    {
+      "address": "0xfe0c30065b384f05761f15d0cc899d4f9f9cc0eb",
+      "token_uid": "f64e9d6d70b70ee2c6863947f73ee73bad13ac13e7f451cd42ac53ef4baa7a",
+      "network_id": 2,
+      "is_verified": true,
+      "decimals": 18,
+      "is_native": false,
+      "token_type": "ERC20",
+      "upgradeable": false,
+      "has_blue_checkmark": true,
+      "gas_sponsored_strategy": 0,
+      "name": "ether.fi",
+      "symbol": "ETHFI",
+      "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/29814.png",
+      "logo_svg_url": ""
+    }
+  ]
+}

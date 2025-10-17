@@ -1,0 +1,40 @@
+{
+  "uuid": "b47fc6f0504151c47095f088d69a478665b8763e1b2fd06f6afeb35731dc01",
+  "name": "MYX Finance",
+  "symbol": "MYX",
+  "has_gas_sponsored": false,
+  "is_stable_token": false,
+  "wrapped_token_uuid": "",
+  "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/36410.png",
+  "logo_svg_url": "",
+  "description": "MYX Finance (MYX) is a cryptocurrency launched in 2023and operates on the BNB Smart Chain (BEP20) platform. MYX Finance has a current supply of 1,000,000,000 with 206,105,423.7 in circulation. The last known price of MYX Finance is 2.88389304 USD and is down -6.58 over the last 24 hours. It is currently trading on 128 active market(s) with $48,231,049.56 traded over the last 24 hours. More information can be found at https://app.myx.finance.",
+  "coin_market_cap_id": 36410,
+  "is_featured": false,
+  "order_index": 1860,
+  "website_url": "https://app.myx.finance",
+  "x_url": "https://twitter.com/MYX_Finance",
+  "discord_url": "",
+  "whitepaper_url": "",
+  "live_price_url": "",
+  "tags": [],
+  "is_scam": false,
+  "is_disabled": false,
+  "addresses": [
+    {
+      "address": "0xd82544bf0dfe8385ef8fa34d67e6e4940cc63e16",
+      "token_uid": "b47fc6f0504151c47095f088d69a478665b8763e1b2fd06f6afeb35731dc01",
+      "network_id": 3,
+      "is_verified": true,
+      "decimals": 18,
+      "is_native": false,
+      "token_type": "ERC20",
+      "upgradeable": false,
+      "has_blue_checkmark": true,
+      "gas_sponsored_strategy": 0,
+      "name": "MYX Finance",
+      "symbol": "MYX",
+      "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/36410.png",
+      "logo_svg_url": ""
+    }
+  ]
+}

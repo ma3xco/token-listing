@@ -1,0 +1,40 @@
+{
+  "uuid": "8802e784b047be12087c0606b618eff6501d2465611aedacd92166cd774c31",
+  "name": "Four",
+  "symbol": "FORM",
+  "has_gas_sponsored": false,
+  "is_stable_token": false,
+  "wrapped_token_uuid": "",
+  "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/23635.png",
+  "logo_svg_url": "",
+  "description": "Four (FORM) is a cryptocurrency launched in 2021and operates on the BNB Smart Chain (BEP20) platform. Four has a current supply of 572,301,922.0959299 with 381,867,255.144574 in circulation. The last known price of Four is 0.87101046 USD and is down -5.87 over the last 24 hours. It is currently trading on 204 active market(s) with $95,061,790.86 traded over the last 24 hours. More information can be found at https://official.four.meme/.",
+  "coin_market_cap_id": 23635,
+  "is_featured": false,
+  "order_index": 2740,
+  "website_url": "https://official.four.meme/",
+  "x_url": "https://twitter.com/Four_FORM_",
+  "discord_url": "",
+  "whitepaper_url": "",
+  "live_price_url": "",
+  "tags": [],
+  "is_scam": false,
+  "is_disabled": false,
+  "addresses": [
+    {
+      "address": "0x5b73a93b4e5e4f1fd27d8b3f8c97d69908b5e284",
+      "token_uid": "8802e784b047be12087c0606b618eff6501d2465611aedacd92166cd774c31",
+      "network_id": 3,
+      "is_verified": true,
+      "decimals": 18,
+      "is_native": false,
+      "token_type": "ERC20",
+      "upgradeable": false,
+      "has_blue_checkmark": true,
+      "gas_sponsored_strategy": 0,
+      "name": "Four",
+      "symbol": "FORM",
+      "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/23635.png",
+      "logo_svg_url": ""
+    }
+  ]
+}

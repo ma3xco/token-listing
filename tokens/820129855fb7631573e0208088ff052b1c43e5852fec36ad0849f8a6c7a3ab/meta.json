@@ -1,0 +1,40 @@
+{
+  "uuid": "820129855fb7631573e0208088ff052b1c43e5852fec36ad0849f8a6c7a3ab",
+  "name": "Fartcoin",
+  "symbol": "FARTCOIN",
+  "has_gas_sponsored": false,
+  "is_stable_token": false,
+  "wrapped_token_uuid": "",
+  "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/33597.png",
+  "logo_svg_url": "",
+  "description": "Fartcoin (FARTCOIN) is a cryptocurrency and operates on the Solana platform. Fartcoin has a current supply of 1,000,000,000 with 999,998,256 in circulation. The last known price of Fartcoin is 0.35847349 USD and is down -8.73 over the last 24 hours. It is currently trading on 507 active market(s) with $166,864,202.15 traded over the last 24 hours. More information can be found at https://fart.dev/.",
+  "coin_market_cap_id": 33597,
+  "is_featured": false,
+  "order_index": 2600,
+  "website_url": "https://fart.dev/",
+  "x_url": "https://twitter.com/FartCoinOfSOL",
+  "discord_url": "",
+  "whitepaper_url": "",
+  "live_price_url": "",
+  "tags": [],
+  "is_scam": false,
+  "is_disabled": false,
+  "addresses": [
+    {
+      "address": "9BB6NFEcjBCtnNLFko2FqVQBq8HHM13kCyYcdQbgpump",
+      "token_uid": "820129855fb7631573e0208088ff052b1c43e5852fec36ad0849f8a6c7a3ab",
+      "network_id": 4,
+      "is_verified": true,
+      "decimals": 6,
+      "is_native": false,
+      "token_type": "ERC20",
+      "upgradeable": false,
+      "has_blue_checkmark": true,
+      "gas_sponsored_strategy": 0,
+      "name": "Fartcoin",
+      "symbol": "FARTCOIN",
+      "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/33597.png",
+      "logo_svg_url": ""
+    }
+  ]
+}

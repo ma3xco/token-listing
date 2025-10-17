@@ -1,0 +1,40 @@
+{
+  "uuid": "038ba17d5e3750e99a03917825a9ec4aa4ee47dc694b7926685307cbe0e6fa",
+  "name": "Gnosis",
+  "symbol": "GNO",
+  "has_gas_sponsored": false,
+  "is_stable_token": false,
+  "wrapped_token_uuid": "",
+  "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/1659.png",
+  "logo_svg_url": "",
+  "description": "Gnosis (GNO) is a cryptocurrency and operates on the Ethereum platform. Gnosis has a current supply of 2,999,934.74597423 with 2,639,212.62448928 in circulation. The last known price of Gnosis is 123.32321735 USD and is down -4.66 over the last 24 hours. It is currently trading on 241 active market(s) with $10,079,572.92 traded over the last 24 hours. More information can be found at https://gnosis.io/.",
+  "coin_market_cap_id": 1659,
+  "is_featured": false,
+  "order_index": 2780,
+  "website_url": "https://gnosis.io/",
+  "x_url": "https://twitter.com/gnosisdao",
+  "discord_url": "",
+  "whitepaper_url": "",
+  "live_price_url": "",
+  "tags": [],
+  "is_scam": false,
+  "is_disabled": false,
+  "addresses": [
+    {
+      "address": "0x6810e776880c02933d47db1b9fc05908e5386b96",
+      "token_uid": "038ba17d5e3750e99a03917825a9ec4aa4ee47dc694b7926685307cbe0e6fa",
+      "network_id": 2,
+      "is_verified": true,
+      "decimals": 18,
+      "is_native": false,
+      "token_type": "ERC20",
+      "upgradeable": false,
+      "has_blue_checkmark": true,
+      "gas_sponsored_strategy": 0,
+      "name": "Gnosis",
+      "symbol": "GNO",
+      "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/1659.png",
+      "logo_svg_url": ""
+    }
+  ]
+}

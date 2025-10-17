@@ -1,0 +1,40 @@
+{
+  "uuid": "a732a0c503da87dd535281913a92ed1ee15371c48bb71ecd5c726fd66d342a",
+  "name": "Zcash",
+  "symbol": "ZEC",
+  "has_gas_sponsored": false,
+  "is_stable_token": false,
+  "wrapped_token_uuid": "",
+  "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/1437.png",
+  "logo_svg_url": "",
+  "description": "Zcash (ZEC) is a cryptocurrency . Users are able to generate ZEC through the process of mining. Zcash has a current supply of 16,266,994.4155448. The last known price of Zcash is 215.96329068 USD and is down -3.13 over the last 24 hours. It is currently trading on 456 active market(s) with $681,347,028.99 traded over the last 24 hours. More information can be found at https://z.cash/.",
+  "coin_market_cap_id": 1437,
+  "is_featured": false,
+  "order_index": 600,
+  "website_url": "https://z.cash/",
+  "x_url": "https://twitter.com/electriccoinco",
+  "discord_url": "",
+  "whitepaper_url": "",
+  "live_price_url": "",
+  "tags": [],
+  "is_scam": false,
+  "is_disabled": false,
+  "addresses": [
+    {
+      "address": "0x1ba42e5193dfa8b03d15dd1b86a3113bbbef8eeb",
+      "token_uid": "a732a0c503da87dd535281913a92ed1ee15371c48bb71ecd5c726fd66d342a",
+      "network_id": 3,
+      "is_verified": true,
+      "decimals": 18,
+      "is_native": false,
+      "token_type": "ERC20",
+      "upgradeable": false,
+      "has_blue_checkmark": true,
+      "gas_sponsored_strategy": 0,
+      "name": "Zcash",
+      "symbol": "ZEC",
+      "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/1437.png",
+      "logo_svg_url": ""
+    }
+  ]
+}

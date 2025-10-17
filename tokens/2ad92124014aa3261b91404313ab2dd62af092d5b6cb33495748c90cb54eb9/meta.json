@@ -1,0 +1,40 @@
+{
+  "uuid": "2ad92124014aa3261b91404313ab2dd62af092d5b6cb33495748c90cb54eb9",
+  "name": "Maple Finance",
+  "symbol": "SYRUP",
+  "has_gas_sponsored": false,
+  "is_stable_token": false,
+  "wrapped_token_uuid": "",
+  "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/33824.png",
+  "logo_svg_url": "",
+  "description": "Maple Finance (SYRUP) is a cryptocurrency launched in 2024and operates on the Ethereum platform. Maple Finance has a current supply of 1,216,127,147.99856355 with 1,213,436,328.1238147 in circulation. The last known price of Maple Finance is 0.37604962 USD and is down -8.71 over the last 24 hours. It is currently trading on 167 active market(s) with $59,017,367.45 traded over the last 24 hours. More information can be found at https://maple.finance/.",
+  "coin_market_cap_id": 33824,
+  "is_featured": false,
+  "order_index": 2380,
+  "website_url": "https://maple.finance/",
+  "x_url": "https://twitter.com/maplefinance",
+  "discord_url": "",
+  "whitepaper_url": "",
+  "live_price_url": "",
+  "tags": [],
+  "is_scam": false,
+  "is_disabled": false,
+  "addresses": [
+    {
+      "address": "0x643c4e15d7d62ad0abec4a9bd4b001aa3ef52d66",
+      "token_uid": "2ad92124014aa3261b91404313ab2dd62af092d5b6cb33495748c90cb54eb9",
+      "network_id": 2,
+      "is_verified": true,
+      "decimals": 18,
+      "is_native": false,
+      "token_type": "ERC20",
+      "upgradeable": false,
+      "has_blue_checkmark": true,
+      "gas_sponsored_strategy": 0,
+      "name": "Maple Finance",
+      "symbol": "SYRUP",
+      "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/33824.png",
+      "logo_svg_url": ""
+    }
+  ]
+}

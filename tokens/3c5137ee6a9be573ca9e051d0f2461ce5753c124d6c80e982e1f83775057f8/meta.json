@@ -1,0 +1,40 @@
+{
+  "uuid": "3c5137ee6a9be573ca9e051d0f2461ce5753c124d6c80e982e1f83775057f8",
+  "name": "Helium",
+  "symbol": "HNT",
+  "has_gas_sponsored": false,
+  "is_stable_token": false,
+  "wrapped_token_uuid": "",
+  "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/5665.png",
+  "logo_svg_url": "",
+  "description": "Helium (HNT) is a cryptocurrency launched in 2019. Users are able to generate HNT through the process of mining. Helium has a current supply of 186,321,438.2959488. The last known price of Helium is 1.84374636 USD and is down -12.54 over the last 24 hours. It is currently trading on 212 active market(s) with $14,880,038.58 traded over the last 24 hours. More information can be found at https://www.helium.com/.",
+  "coin_market_cap_id": 5665,
+  "is_featured": false,
+  "order_index": 2700,
+  "website_url": "https://www.helium.com/",
+  "x_url": "https://twitter.com/helium",
+  "discord_url": "",
+  "whitepaper_url": "",
+  "live_price_url": "",
+  "tags": [],
+  "is_scam": false,
+  "is_disabled": false,
+  "addresses": [
+    {
+      "address": "hntyVP6YFm1Hg25TN9WGLqM12b8TQmcknKrdu1oxWux",
+      "token_uid": "3c5137ee6a9be573ca9e051d0f2461ce5753c124d6c80e982e1f83775057f8",
+      "network_id": 4,
+      "is_verified": true,
+      "decimals": 8,
+      "is_native": false,
+      "token_type": "ERC20",
+      "upgradeable": false,
+      "has_blue_checkmark": true,
+      "gas_sponsored_strategy": 0,
+      "name": "Helium",
+      "symbol": "HNT",
+      "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/5665.png",
+      "logo_svg_url": ""
+    }
+  ]
+}

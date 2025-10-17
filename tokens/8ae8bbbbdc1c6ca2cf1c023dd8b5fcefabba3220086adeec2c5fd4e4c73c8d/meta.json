@@ -1,0 +1,40 @@
+{
+  "uuid": "8ae8bbbbdc1c6ca2cf1c023dd8b5fcefabba3220086adeec2c5fd4e4c73c8d",
+  "name": "Pyth Network",
+  "symbol": "PYTH",
+  "has_gas_sponsored": false,
+  "is_stable_token": false,
+  "wrapped_token_uuid": "",
+  "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/28177.png",
+  "logo_svg_url": "",
+  "description": "Pyth Network (PYTH) is a cryptocurrency launched in 2021and operates on the Solana platform. Pyth Network has a current supply of 9,999,983,071.7086 with 5,749,983,071.7086 in circulation. The last known price of Pyth Network is 0.10828594 USD and is down -7.85 over the last 24 hours. It is currently trading on 388 active market(s) with $67,970,825.86 traded over the last 24 hours. More information can be found at https://pyth.network/.",
+  "coin_market_cap_id": 28177,
+  "is_featured": false,
+  "order_index": 1780,
+  "website_url": "https://pyth.network/",
+  "x_url": "https://twitter.com/PythNetwork",
+  "discord_url": "",
+  "whitepaper_url": "",
+  "live_price_url": "",
+  "tags": [],
+  "is_scam": false,
+  "is_disabled": false,
+  "addresses": [
+    {
+      "address": "HZ1JovNiVvGrGNiiYvEozEVgZ58xaU3RKwX8eACQBCt3",
+      "token_uid": "8ae8bbbbdc1c6ca2cf1c023dd8b5fcefabba3220086adeec2c5fd4e4c73c8d",
+      "network_id": 4,
+      "is_verified": true,
+      "decimals": 6,
+      "is_native": false,
+      "token_type": "ERC20",
+      "upgradeable": false,
+      "has_blue_checkmark": true,
+      "gas_sponsored_strategy": 0,
+      "name": "Pyth Network",
+      "symbol": "PYTH",
+      "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/28177.png",
+      "logo_svg_url": ""
+    }
+  ]
+}
