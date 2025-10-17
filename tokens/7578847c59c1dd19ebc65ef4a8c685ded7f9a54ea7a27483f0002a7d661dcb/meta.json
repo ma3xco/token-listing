@@ -1,0 +1,40 @@
+{
+  "uuid": "7578847c59c1dd19ebc65ef4a8c685ded7f9a54ea7a27483f0002a7d661dcb",
+  "name": "Jito",
+  "symbol": "JTO",
+  "has_gas_sponsored": false,
+  "is_stable_token": false,
+  "wrapped_token_uuid": "",
+  "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/28541.png",
+  "logo_svg_url": "",
+  "description": "Jito (JTO) is a cryptocurrency launched in 2023and operates on the Solana platform. Jito has a current supply of 999,999,654.19140902 with 389,816,859 in circulation. The last known price of Jito is 1.18710735 USD and is up 3.26 over the last 24 hours. It is currently trading on 341 active market(s) with $93,938,036.42 traded over the last 24 hours. More information can be found at https://www.jito.network/.",
+  "coin_market_cap_id": 28541,
+  "is_featured": false,
+  "order_index": 2320,
+  "website_url": "https://www.jito.network/",
+  "x_url": "https://twitter.com/jito_sol",
+  "discord_url": "",
+  "whitepaper_url": "",
+  "live_price_url": "",
+  "tags": [],
+  "is_scam": false,
+  "is_disabled": false,
+  "addresses": [
+    {
+      "address": "jtojtomepa8beP8AuQc6eXt5FriJwfFMwQx2v2f9mCL",
+      "token_uid": "7578847c59c1dd19ebc65ef4a8c685ded7f9a54ea7a27483f0002a7d661dcb",
+      "network_id": 4,
+      "is_verified": true,
+      "decimals": 9,
+      "is_native": false,
+      "token_type": "ERC20",
+      "upgradeable": false,
+      "has_blue_checkmark": true,
+      "gas_sponsored_strategy": 0,
+      "name": "Jito",
+      "symbol": "JTO",
+      "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/28541.png",
+      "logo_svg_url": ""
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "uuid": "6bc0759a13aedd8a9f56eaa182288ea93746ff94a60626de79aba38a3bb518",
+  "name": "Cheems (cheems.pet)",
+  "symbol": "CHEEMS",
+  "has_gas_sponsored": false,
+  "is_stable_token": false,
+  "wrapped_token_uuid": "",
+  "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/33280.png",
+  "logo_svg_url": "",
+  "description": "Cheems (cheems.pet) (CHEEMS) is a cryptocurrency launched in 2024and operates on the BNB Smart Chain (BEP20) platform. Cheems (cheems.pet) has a current supply of 203,672,952,644,644.19 with 187,495,034,775,398 in circulation. The last known price of Cheems (cheems.pet) is 0.00000146 USD and is down -2.78 over the last 24 hours. It is currently trading on 67 active market(s) with $5,903,796.62 traded over the last 24 hours. More information can be found at https://cheems.pet/.",
+  "coin_market_cap_id": 33280,
+  "is_featured": false,
+  "order_index": 3100,
+  "website_url": "https://cheems.pet/",
+  "x_url": "https://twitter.com/LordCheems_bsc",
+  "discord_url": "",
+  "whitepaper_url": "",
+  "live_price_url": "",
+  "tags": [],
+  "is_scam": false,
+  "is_disabled": false,
+  "addresses": [
+    {
+      "address": "0x0df0587216a4a1bb7d5082fdc491d93d2dd4b413",
+      "token_uid": "6bc0759a13aedd8a9f56eaa182288ea93746ff94a60626de79aba38a3bb518",
+      "network_id": 3,
+      "is_verified": true,
+      "decimals": 18,
+      "is_native": false,
+      "token_type": "ERC20",
+      "upgradeable": false,
+      "has_blue_checkmark": true,
+      "gas_sponsored_strategy": 0,
+      "name": "Cheems (cheems.pet)",
+      "symbol": "CHEEMS",
+      "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/33280.png",
+      "logo_svg_url": ""
+    }
+  ]
+}

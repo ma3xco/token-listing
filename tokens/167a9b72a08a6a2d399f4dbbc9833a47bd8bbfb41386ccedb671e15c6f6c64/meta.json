@@ -1,0 +1,40 @@
+{
+  "uuid": "167a9b72a08a6a2d399f4dbbc9833a47bd8bbfb41386ccedb671e15c6f6c64",
+  "name": "Creditcoin",
+  "symbol": "CTC",
+  "has_gas_sponsored": false,
+  "is_stable_token": false,
+  "wrapped_token_uuid": "",
+  "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/5198.png",
+  "logo_svg_url": "",
+  "description": "Creditcoin (CTC) is a cryptocurrency launched in 2019. Creditcoin has a current supply of 549,564,264 with 496,416,053 in circulation. The last known price of Creditcoin is 0.44289088 USD and is down -3.99 over the last 24 hours. It is currently trading on 93 active market(s) with $23,271,514.66 traded over the last 24 hours. More information can be found at https://creditcoin.org.",
+  "coin_market_cap_id": 5198,
+  "is_featured": false,
+  "order_index": 3500,
+  "website_url": "https://creditcoin.org",
+  "x_url": "https://twitter.com/creditcoin",
+  "discord_url": "",
+  "whitepaper_url": "",
+  "live_price_url": "",
+  "tags": [],
+  "is_scam": false,
+  "is_disabled": false,
+  "addresses": [
+    {
+      "address": "0xa3ee21c306a700e682abcdfe9baa6a08f3820419",
+      "token_uid": "167a9b72a08a6a2d399f4dbbc9833a47bd8bbfb41386ccedb671e15c6f6c64",
+      "network_id": 2,
+      "is_verified": true,
+      "decimals": 18,
+      "is_native": false,
+      "token_type": "ERC20",
+      "upgradeable": false,
+      "has_blue_checkmark": true,
+      "gas_sponsored_strategy": 0,
+      "name": "Creditcoin",
+      "symbol": "CTC",
+      "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/5198.png",
+      "logo_svg_url": ""
+    }
+  ]
+}

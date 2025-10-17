@@ -1,0 +1,40 @@
+{
+  "uuid": "87c91ca48be199f04d736c2abcf16241f9df35d3fca558599c56bbced3c619",
+  "name": "Mantle",
+  "symbol": "MNT",
+  "has_gas_sponsored": false,
+  "is_stable_token": false,
+  "wrapped_token_uuid": "",
+  "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/27075.png",
+  "logo_svg_url": "",
+  "description": "Mantle (MNT) is a cryptocurrency launched in 2021and operates on the Ethereum platform. Mantle has a current supply of 6,219,316,794.89 with 3,252,944,055.7368407 in circulation. The last known price of Mantle is 1.58920994 USD and is down -8.24 over the last 24 hours. It is currently trading on 199 active market(s) with $425,915,740.97 traded over the last 24 hours. More information can be found at https://group.mantle.xyz/.",
+  "coin_market_cap_id": 27075,
+  "is_featured": false,
+  "order_index": 500,
+  "website_url": "https://group.mantle.xyz/",
+  "x_url": "https://twitter.com/0xMantle",
+  "discord_url": "",
+  "whitepaper_url": "",
+  "live_price_url": "",
+  "tags": [],
+  "is_scam": false,
+  "is_disabled": false,
+  "addresses": [
+    {
+      "address": "0x3c3a81e81dc49a522a592e7622a7e711c06bf354",
+      "token_uid": "87c91ca48be199f04d736c2abcf16241f9df35d3fca558599c56bbced3c619",
+      "network_id": 2,
+      "is_verified": true,
+      "decimals": 18,
+      "is_native": false,
+      "token_type": "ERC20",
+      "upgradeable": false,
+      "has_blue_checkmark": true,
+      "gas_sponsored_strategy": 0,
+      "name": "Mantle",
+      "symbol": "MNT",
+      "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/27075.png",
+      "logo_svg_url": ""
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "uuid": "35003f6efc9134c6bc507df3ace3128408cd7631e1a31ba2a6aab4d59ebe20",
+  "name": "Quant",
+  "symbol": "QNT",
+  "has_gas_sponsored": false,
+  "is_stable_token": false,
+  "wrapped_token_uuid": "",
+  "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/3155.png",
+  "logo_svg_url": "",
+  "description": "Quant (QNT) is a cryptocurrency and operates on the Ethereum platform. Quant has a current supply of 14,881,364 with 12,072,738 in circulation. The last known price of Quant is 81.87389625 USD and is down -6.01 over the last 24 hours. It is currently trading on 336 active market(s) with $32,642,247.18 traded over the last 24 hours. More information can be found at https://quant.network/.",
+  "coin_market_cap_id": 3155,
+  "is_featured": false,
+  "order_index": 1420,
+  "website_url": "https://quant.network/",
+  "x_url": "https://twitter.com/quant_network",
+  "discord_url": "",
+  "whitepaper_url": "",
+  "live_price_url": "",
+  "tags": [],
+  "is_scam": false,
+  "is_disabled": false,
+  "addresses": [
+    {
+      "address": "0x4a220e6096b25eadb88358cb44068a3248254675",
+      "token_uid": "35003f6efc9134c6bc507df3ace3128408cd7631e1a31ba2a6aab4d59ebe20",
+      "network_id": 2,
+      "is_verified": true,
+      "decimals": 18,
+      "is_native": false,
+      "token_type": "ERC20",
+      "upgradeable": false,
+      "has_blue_checkmark": true,
+      "gas_sponsored_strategy": 0,
+      "name": "Quant",
+      "symbol": "QNT",
+      "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/3155.png",
+      "logo_svg_url": ""
+    }
+  ]
+}

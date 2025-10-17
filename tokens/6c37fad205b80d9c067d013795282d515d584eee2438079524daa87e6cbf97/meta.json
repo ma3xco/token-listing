@@ -1,0 +1,40 @@
+{
+  "uuid": "6c37fad205b80d9c067d013795282d515d584eee2438079524daa87e6cbf97",
+  "name": "DoubleZero",
+  "symbol": "2Z",
+  "has_gas_sponsored": false,
+  "is_stable_token": false,
+  "wrapped_token_uuid": "",
+  "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/38515.png",
+  "logo_svg_url": "",
+  "description": "DoubleZero (2Z) is a cryptocurrency launched in 2025and operates on the Solana platform. DoubleZero has a current supply of 9,999,999,982.3 with 3,471,417,500 in circulation. The last known price of DoubleZero is 0.23211127 USD and is down -7.98 over the last 24 hours. It is currently trading on 141 active market(s) with $69,781,920.58 traded over the last 24 hours. More information can be found at https://doublezero.xyz/.",
+  "coin_market_cap_id": 38515,
+  "is_featured": false,
+  "order_index": 1560,
+  "website_url": "https://doublezero.xyz/",
+  "x_url": "https://twitter.com/doublezero",
+  "discord_url": "",
+  "whitepaper_url": "",
+  "live_price_url": "",
+  "tags": [],
+  "is_scam": false,
+  "is_disabled": false,
+  "addresses": [
+    {
+      "address": "J6pQQ3FAcJQeWPPGppWRb4nM8jU3wLyYbRrLh7feMfvd",
+      "token_uid": "6c37fad205b80d9c067d013795282d515d584eee2438079524daa87e6cbf97",
+      "network_id": 4,
+      "is_verified": true,
+      "decimals": 8,
+      "is_native": false,
+      "token_type": "ERC20",
+      "upgradeable": false,
+      "has_blue_checkmark": true,
+      "gas_sponsored_strategy": 0,
+      "name": "DoubleZero",
+      "symbol": "2Z",
+      "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/38515.png",
+      "logo_svg_url": ""
+    }
+  ]
+}

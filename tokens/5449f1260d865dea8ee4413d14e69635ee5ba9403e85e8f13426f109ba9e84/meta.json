@@ -1,0 +1,40 @@
+{
+  "uuid": "5449f1260d865dea8ee4413d14e69635ee5ba9403e85e8f13426f109ba9e84",
+  "name": "Ethereum Classic",
+  "symbol": "ETC",
+  "has_gas_sponsored": false,
+  "is_stable_token": false,
+  "wrapped_token_uuid": "",
+  "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/1321.png",
+  "logo_svg_url": "",
+  "description": "Ethereum Classic (ETC) is a cryptocurrency launched in 2015. Users are able to generate ETC through the process of mining. Ethereum Classic has a current supply of 210,700,000 with 153,948,365.41417956 in circulation. The last known price of Ethereum Classic is 15.35637734 USD and is down -5.65 over the last 24 hours. It is currently trading on 672 active market(s) with $144,542,673.60 traded over the last 24 hours. More information can be found at https://ethereumclassic.org/.",
+  "coin_market_cap_id": 1321,
+  "is_featured": false,
+  "order_index": 800,
+  "website_url": "https://ethereumclassic.org/",
+  "x_url": "https://twitter.com/eth_classic",
+  "discord_url": "",
+  "whitepaper_url": "",
+  "live_price_url": "",
+  "tags": [],
+  "is_scam": false,
+  "is_disabled": false,
+  "addresses": [
+    {
+      "address": "0x3d6545b08693dae087e957cb1180ee38b9e3c25e",
+      "token_uid": "5449f1260d865dea8ee4413d14e69635ee5ba9403e85e8f13426f109ba9e84",
+      "network_id": 3,
+      "is_verified": true,
+      "decimals": 18,
+      "is_native": false,
+      "token_type": "ERC20",
+      "upgradeable": false,
+      "has_blue_checkmark": true,
+      "gas_sponsored_strategy": 0,
+      "name": "Ethereum Classic",
+      "symbol": "ETC",
+      "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/1321.png",
+      "logo_svg_url": ""
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "uuid": "cd799292d2d97817c218c1bbf0976167e40adc50353b6001a3eea80ff90528",
+  "name": "AB",
+  "symbol": "AB",
+  "has_gas_sponsored": false,
+  "is_stable_token": false,
+  "wrapped_token_uuid": "",
+  "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/3871.png",
+  "logo_svg_url": "",
+  "description": "AB (AB) is a cryptocurrency launched in 2018and operates on the BNB Smart Chain (BEP20) platform. Users are able to generate AB through the process of mining. AB has a current supply of 98,823,661,261.46 with 82,394,070,787.95 in circulation. The last known price of AB is 0.00711351 USD and is down -2.32 over the last 24 hours. It is currently trading on 69 active market(s) with $38,127,606.31 traded over the last 24 hours. More information can be found at https://ab.org.",
+  "coin_market_cap_id": 3871,
+  "is_featured": false,
+  "order_index": 1900,
+  "website_url": "https://ab.org",
+  "x_url": "https://twitter.com/ABDAO_Global",
+  "discord_url": "",
+  "whitepaper_url": "",
+  "live_price_url": "",
+  "tags": [],
+  "is_scam": false,
+  "is_disabled": false,
+  "addresses": [
+    {
+      "address": "0x95034f653d5d161890836ad2b6b8cc49d14e029a",
+      "token_uid": "cd799292d2d97817c218c1bbf0976167e40adc50353b6001a3eea80ff90528",
+      "network_id": 3,
+      "is_verified": true,
+      "decimals": 18,
+      "is_native": false,
+      "token_type": "ERC20",
+      "upgradeable": false,
+      "has_blue_checkmark": true,
+      "gas_sponsored_strategy": 0,
+      "name": "AB",
+      "symbol": "AB",
+      "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/3871.png",
+      "logo_svg_url": ""
+    }
+  ]
+}

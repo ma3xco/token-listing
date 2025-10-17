@@ -1,0 +1,40 @@
+{
+  "uuid": "b2ce9639e831a71637d48767cd39f8a9745027325417d684c074f69872a677",
+  "name": "Kamino Finance",
+  "symbol": "KMNO",
+  "has_gas_sponsored": false,
+  "is_stable_token": false,
+  "wrapped_token_uuid": "",
+  "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/30986.png",
+  "logo_svg_url": "",
+  "description": "Kamino Finance (KMNO) is a cryptocurrency launched in 2024and operates on the Solana platform. Kamino Finance has a current supply of 9,999,962,906.757302 with 3,030,822,032.5 in circulation. The last known price of Kamino Finance is 0.06636394 USD and is up 7.43 over the last 24 hours. It is currently trading on 225 active market(s) with $46,419,602.57 traded over the last 24 hours. More information can be found at https://kamino.com/.",
+  "coin_market_cap_id": 30986,
+  "is_featured": false,
+  "order_index": 3680,
+  "website_url": "https://kamino.com/",
+  "x_url": "https://twitter.com/KaminoFinance",
+  "discord_url": "",
+  "whitepaper_url": "",
+  "live_price_url": "",
+  "tags": [],
+  "is_scam": false,
+  "is_disabled": false,
+  "addresses": [
+    {
+      "address": "KMNo3nJsBXfcpJTVhZcXLW7RmTwTt4GVFE7suUBo9sS",
+      "token_uid": "b2ce9639e831a71637d48767cd39f8a9745027325417d684c074f69872a677",
+      "network_id": 4,
+      "is_verified": true,
+      "decimals": 6,
+      "is_native": false,
+      "token_type": "ERC20",
+      "upgradeable": false,
+      "has_blue_checkmark": true,
+      "gas_sponsored_strategy": 0,
+      "name": "Kamino Finance",
+      "symbol": "KMNO",
+      "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/30986.png",
+      "logo_svg_url": ""
+    }
+  ]
+}

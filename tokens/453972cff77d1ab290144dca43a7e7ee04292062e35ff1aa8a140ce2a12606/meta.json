@@ -1,0 +1,40 @@
+{
+  "uuid": "453972cff77d1ab290144dca43a7e7ee04292062e35ff1aa8a140ce2a12606",
+  "name": "SuperVerse",
+  "symbol": "SUPER",
+  "has_gas_sponsored": false,
+  "is_stable_token": false,
+  "wrapped_token_uuid": "",
+  "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/8290.png",
+  "logo_svg_url": "",
+  "description": "SuperVerse (SUPER) is a cryptocurrency launched in 2021and operates on the Ethereum platform. SuperVerse has a current supply of 999,998,077.41691727 with 628,412,622.41691727 in circulation. The last known price of SuperVerse is 0.38278591 USD and is down -13.08 over the last 24 hours. It is currently trading on 257 active market(s) with $34,651,219.39 traded over the last 24 hours. More information can be found at https://superverse.co/.",
+  "coin_market_cap_id": 8290,
+  "is_featured": false,
+  "order_index": 3340,
+  "website_url": "https://superverse.co/",
+  "x_url": "https://twitter.com/SuperVerse",
+  "discord_url": "",
+  "whitepaper_url": "",
+  "live_price_url": "",
+  "tags": [],
+  "is_scam": false,
+  "is_disabled": false,
+  "addresses": [
+    {
+      "address": "0xe53ec727dbdeb9e2d5456c3be40cff031ab40a55",
+      "token_uid": "453972cff77d1ab290144dca43a7e7ee04292062e35ff1aa8a140ce2a12606",
+      "network_id": 2,
+      "is_verified": true,
+      "decimals": 18,
+      "is_native": false,
+      "token_type": "ERC20",
+      "upgradeable": false,
+      "has_blue_checkmark": true,
+      "gas_sponsored_strategy": 0,
+      "name": "SuperVerse",
+      "symbol": "SUPER",
+      "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/8290.png",
+      "logo_svg_url": ""
+    }
+  ]
+}

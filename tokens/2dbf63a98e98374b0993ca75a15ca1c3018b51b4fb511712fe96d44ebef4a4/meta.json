@@ -1,0 +1,40 @@
+{
+  "uuid": "2dbf63a98e98374b0993ca75a15ca1c3018b51b4fb511712fe96d44ebef4a4",
+  "name": "EigenLayer",
+  "symbol": "EIGEN",
+  "has_gas_sponsored": false,
+  "is_stable_token": false,
+  "wrapped_token_uuid": "",
+  "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/30494.png",
+  "logo_svg_url": "",
+  "description": "EigenLayer (EIGEN) is a cryptocurrency and operates on the Ethereum platform. EigenLayer has a current supply of 1,755,605,838.85699045 with 387,378,852.2323615 in circulation. The last known price of EigenLayer is 1.14396937 USD and is down -8.14 over the last 24 hours. It is currently trading on 248 active market(s) with $122,375,825.13 traded over the last 24 hours. More information can be found at https://www.eigenlayer.xyz/.",
+  "coin_market_cap_id": 30494,
+  "is_featured": false,
+  "order_index": 2440,
+  "website_url": "https://www.eigenlayer.xyz/",
+  "x_url": "https://twitter.com/eigenlayer",
+  "discord_url": "",
+  "whitepaper_url": "",
+  "live_price_url": "",
+  "tags": [],
+  "is_scam": false,
+  "is_disabled": false,
+  "addresses": [
+    {
+      "address": "0xec53bf9167f50cdeb3ae105f56099aaab9061f83",
+      "token_uid": "2dbf63a98e98374b0993ca75a15ca1c3018b51b4fb511712fe96d44ebef4a4",
+      "network_id": 2,
+      "is_verified": true,
+      "decimals": 18,
+      "is_native": false,
+      "token_type": "ERC20",
+      "upgradeable": false,
+      "has_blue_checkmark": true,
+      "gas_sponsored_strategy": 0,
+      "name": "EigenLayer",
+      "symbol": "EIGEN",
+      "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/30494.png",
+      "logo_svg_url": ""
+    }
+  ]
+}

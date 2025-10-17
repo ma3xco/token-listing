@@ -1,0 +1,40 @@
+{
+  "uuid": "903e10c5eb0b0b9681b995594cd97876adf1b71bd20f2af7c80f8d4b475ecf",
+  "name": "Movement",
+  "symbol": "MOVE",
+  "has_gas_sponsored": false,
+  "is_stable_token": false,
+  "wrapped_token_uuid": "",
+  "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/32452.png",
+  "logo_svg_url": "",
+  "description": "Movement (MOVE) is a cryptocurrency launched in 2024and operates on the Ethereum platform. Movement has a current supply of 10,000,000,000 with 2,750,000,000 in circulation. The last known price of Movement is 0.07478416 USD and is down -6.99 over the last 24 hours. It is currently trading on 211 active market(s) with $40,209,196.25 traded over the last 24 hours. More information can be found at https://www.movementnetwork.xyz.",
+  "coin_market_cap_id": 32452,
+  "is_featured": false,
+  "order_index": 3640,
+  "website_url": "https://www.movementnetwork.xyz",
+  "x_url": "https://twitter.com/movementfdn",
+  "discord_url": "",
+  "whitepaper_url": "",
+  "live_price_url": "",
+  "tags": [],
+  "is_scam": false,
+  "is_disabled": false,
+  "addresses": [
+    {
+      "address": "0x3073f7aaa4db83f95e9fff17424f71d4751a3073",
+      "token_uid": "903e10c5eb0b0b9681b995594cd97876adf1b71bd20f2af7c80f8d4b475ecf",
+      "network_id": 2,
+      "is_verified": true,
+      "decimals": 8,
+      "is_native": false,
+      "token_type": "ERC20",
+      "upgradeable": false,
+      "has_blue_checkmark": true,
+      "gas_sponsored_strategy": 0,
+      "name": "Movement",
+      "symbol": "MOVE",
+      "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/32452.png",
+      "logo_svg_url": ""
+    }
+  ]
+}

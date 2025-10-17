@@ -1,0 +1,40 @@
+{
+  "uuid": "aaa5916e381ff631ac824eef4ac49630f194acda28e4b2031e3c5a86adc01b",
+  "name": "Moca Network",
+  "symbol": "MOCA",
+  "has_gas_sponsored": false,
+  "is_stable_token": false,
+  "wrapped_token_uuid": "",
+  "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/31526.png",
+  "logo_svg_url": "",
+  "description": "Moca Network (MOCA) is a cryptocurrency and operates on the Ethereum platform. Moca Network has a current supply of 8,888,888,888 with 3,956,510,700.6225 in circulation. The last known price of Moca Network is 0.05313251 USD and is down -7.82 over the last 24 hours. It is currently trading on 121 active market(s) with $17,905,089.84 traded over the last 24 hours. More information can be found at https://moca.network/.",
+  "coin_market_cap_id": 31526,
+  "is_featured": false,
+  "order_index": 3580,
+  "website_url": "https://moca.network/",
+  "x_url": "https://twitter.com/Moca_Network",
+  "discord_url": "",
+  "whitepaper_url": "",
+  "live_price_url": "",
+  "tags": [],
+  "is_scam": false,
+  "is_disabled": false,
+  "addresses": [
+    {
+      "address": "0xf944e35f95e819e752f3ccb5faf40957d311e8c5",
+      "token_uid": "aaa5916e381ff631ac824eef4ac49630f194acda28e4b2031e3c5a86adc01b",
+      "network_id": 2,
+      "is_verified": true,
+      "decimals": 18,
+      "is_native": false,
+      "token_type": "ERC20",
+      "upgradeable": false,
+      "has_blue_checkmark": true,
+      "gas_sponsored_strategy": 0,
+      "name": "Moca Network",
+      "symbol": "MOCA",
+      "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/31526.png",
+      "logo_svg_url": ""
+    }
+  ]
+}

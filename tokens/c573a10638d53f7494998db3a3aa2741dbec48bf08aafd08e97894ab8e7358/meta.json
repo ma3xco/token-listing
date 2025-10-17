@@ -1,0 +1,40 @@
+{
+  "uuid": "c573a10638d53f7494998db3a3aa2741dbec48bf08aafd08e97894ab8e7358",
+  "name": "Brett (Based)",
+  "symbol": "BRETT",
+  "has_gas_sponsored": false,
+  "is_stable_token": false,
+  "wrapped_token_uuid": "",
+  "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/29743.png",
+  "logo_svg_url": "",
+  "description": "Brett (Based) (BRETT) is a cryptocurrency launched in 2024and operates on the Base platform. Brett (Based) has a current supply of 9,910,236,395. The last known price of Brett (Based) is 0.0266897 USD and is down -9.14 over the last 24 hours. It is currently trading on 243 active market(s) with $77,693,253.36 traded over the last 24 hours. More information can be found at https://www.basedbrett.com/.",
+  "coin_market_cap_id": 29743,
+  "is_featured": false,
+  "order_index": 3160,
+  "website_url": "https://www.basedbrett.com/",
+  "x_url": "https://twitter.com/BasedBrett",
+  "discord_url": "",
+  "whitepaper_url": "",
+  "live_price_url": "",
+  "tags": [],
+  "is_scam": false,
+  "is_disabled": false,
+  "addresses": [
+    {
+      "address": "0xa7440029eca41deabd8775ef1d6086b37d4df8d6",
+      "token_uid": "c573a10638d53f7494998db3a3aa2741dbec48bf08aafd08e97894ab8e7358",
+      "network_id": 3,
+      "is_verified": true,
+      "decimals": 18,
+      "is_native": false,
+      "token_type": "ERC20",
+      "upgradeable": false,
+      "has_blue_checkmark": true,
+      "gas_sponsored_strategy": 0,
+      "name": "Brett (Based)",
+      "symbol": "BRETT",
+      "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/29743.png",
+      "logo_svg_url": ""
+    }
+  ]
+}

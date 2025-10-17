@@ -1,0 +1,40 @@
+{
+  "uuid": "c0dab4873c251f1207d6dc74720a6136853f27102799ded195a3ebcdf4c985",
+  "name": "OFFICIAL TRUMP",
+  "symbol": "TRUMP",
+  "has_gas_sponsored": false,
+  "is_stable_token": false,
+  "wrapped_token_uuid": "",
+  "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/35336.png",
+  "logo_svg_url": "",
+  "description": "OFFICIAL TRUMP (TRUMP) is a cryptocurrency and operates on the Solana platform. OFFICIAL TRUMP has a current supply of 999,999,283.11002 with 199,999,256.197244 in circulation. The last known price of OFFICIAL TRUMP is 5.79252799 USD and is down -4.20 over the last 24 hours. It is currently trading on 652 active market(s) with $476,862,259.22 traded over the last 24 hours. More information can be found at https://gettrumpmemes.com/.",
+  "coin_market_cap_id": 35336,
+  "is_featured": false,
+  "order_index": 1280,
+  "website_url": "https://gettrumpmemes.com/",
+  "x_url": "https://twitter.com/GetTrumpMemes",
+  "discord_url": "",
+  "whitepaper_url": "",
+  "live_price_url": "",
+  "tags": [],
+  "is_scam": false,
+  "is_disabled": false,
+  "addresses": [
+    {
+      "address": "6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN",
+      "token_uid": "c0dab4873c251f1207d6dc74720a6136853f27102799ded195a3ebcdf4c985",
+      "network_id": 4,
+      "is_verified": true,
+      "decimals": 6,
+      "is_native": false,
+      "token_type": "ERC20",
+      "upgradeable": false,
+      "has_blue_checkmark": true,
+      "gas_sponsored_strategy": 0,
+      "name": "OFFICIAL TRUMP",
+      "symbol": "TRUMP",
+      "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/35336.png",
+      "logo_svg_url": ""
+    }
+  ]
+}

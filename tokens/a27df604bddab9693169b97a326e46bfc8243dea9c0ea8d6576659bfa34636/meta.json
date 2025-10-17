@@ -1,0 +1,40 @@
+{
+  "uuid": "a27df604bddab9693169b97a326e46bfc8243dea9c0ea8d6576659bfa34636",
+  "name": "Bitget Token",
+  "symbol": "BGB",
+  "has_gas_sponsored": false,
+  "is_stable_token": false,
+  "wrapped_token_uuid": "",
+  "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/11092.png",
+  "logo_svg_url": "",
+  "description": "Bitget Token (BGB) is a cryptocurrency and operates on the Ethereum platform. Bitget Token has a current supply of 919,992,035.97879069 with 696,585,165.76626344 in circulation. The last known price of Bitget Token is 4.58916453 USD and is down -2.92 over the last 24 hours. It is currently trading on 40 active market(s) with $262,011,053.72 traded over the last 24 hours. More information can be found at https://www.bitget.com/.",
+  "coin_market_cap_id": 11092,
+  "is_featured": false,
+  "order_index": 640,
+  "website_url": "https://www.bitget.com/",
+  "x_url": "https://twitter.com/bitgetglobal",
+  "discord_url": "",
+  "whitepaper_url": "",
+  "live_price_url": "",
+  "tags": [],
+  "is_scam": false,
+  "is_disabled": false,
+  "addresses": [
+    {
+      "address": "0x54d2252757e1672eead234d27b1270728ff90581",
+      "token_uid": "a27df604bddab9693169b97a326e46bfc8243dea9c0ea8d6576659bfa34636",
+      "network_id": 2,
+      "is_verified": true,
+      "decimals": 18,
+      "is_native": false,
+      "token_type": "ERC20",
+      "upgradeable": false,
+      "has_blue_checkmark": true,
+      "gas_sponsored_strategy": 0,
+      "name": "Bitget Token",
+      "symbol": "BGB",
+      "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/11092.png",
+      "logo_svg_url": ""
+    }
+  ]
+}

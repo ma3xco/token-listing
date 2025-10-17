@@ -1,0 +1,40 @@
+{
+  "uuid": "966d2c872d913cd955bd647da83ebb9f45dfdbc4e36a56133492c8c68ab5c5",
+  "name": "OriginTrail",
+  "symbol": "TRAC",
+  "has_gas_sponsored": false,
+  "is_stable_token": false,
+  "wrapped_token_uuid": "",
+  "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/2467.png",
+  "logo_svg_url": "",
+  "description": "OriginTrail (TRAC) is a cryptocurrency launched in 2018and operates on the Ethereum platform. OriginTrail has a current supply of 500,000,000 with 499,998,299.602 in circulation. The last known price of OriginTrail is 0.69828282 USD and is down -2.32 over the last 24 hours. It is currently trading on 85 active market(s) with $11,402,527.29 traded over the last 24 hours. More information can be found at https://origintrail.io/.",
+  "coin_market_cap_id": 2467,
+  "is_featured": false,
+  "order_index": 2680,
+  "website_url": "https://origintrail.io/",
+  "x_url": "https://twitter.com/origin_trail",
+  "discord_url": "",
+  "whitepaper_url": "",
+  "live_price_url": "",
+  "tags": [],
+  "is_scam": false,
+  "is_disabled": false,
+  "addresses": [
+    {
+      "address": "0xaa7a9ca87d3694b5755f213b5d04094b8d0f0a6f",
+      "token_uid": "966d2c872d913cd955bd647da83ebb9f45dfdbc4e36a56133492c8c68ab5c5",
+      "network_id": 2,
+      "is_verified": true,
+      "decimals": 18,
+      "is_native": false,
+      "token_type": "ERC20",
+      "upgradeable": false,
+      "has_blue_checkmark": true,
+      "gas_sponsored_strategy": 0,
+      "name": "OriginTrail",
+      "symbol": "TRAC",
+      "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/2467.png",
+      "logo_svg_url": ""
+    }
+  ]
+}

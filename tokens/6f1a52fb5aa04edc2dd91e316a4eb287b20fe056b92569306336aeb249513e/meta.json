@@ -1,0 +1,40 @@
+{
+  "uuid": "6f1a52fb5aa04edc2dd91e316a4eb287b20fe056b92569306336aeb249513e",
+  "name": "XRP",
+  "symbol": "XRP",
+  "has_gas_sponsored": false,
+  "is_stable_token": false,
+  "wrapped_token_uuid": "",
+  "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/52.png",
+  "logo_svg_url": "",
+  "description": "XRP (XRP) is a cryptocurrency . XRP has a current supply of 99,985,787,384 with 59,916,045,245 in circulation. The last known price of XRP is 2.28962878 USD and is down -4.14 over the last 24 hours. It is currently trading on 1727 active market(s) with $9,024,937,771.05 traded over the last 24 hours. More information can be found at https://xrpl.org/.",
+  "coin_market_cap_id": 52,
+  "is_featured": true,
+  "order_index": 100,
+  "website_url": "https://xrpl.org/",
+  "x_url": "https://twitter.com/Ripple",
+  "discord_url": "",
+  "whitepaper_url": "",
+  "live_price_url": "",
+  "tags": [],
+  "is_scam": false,
+  "is_disabled": false,
+  "addresses": [
+    {
+      "address": "0x1d2f0da169ceb9fc7b3144628db156f3f6c60dbe",
+      "token_uid": "6f1a52fb5aa04edc2dd91e316a4eb287b20fe056b92569306336aeb249513e",
+      "network_id": 3,
+      "is_verified": true,
+      "decimals": 18,
+      "is_native": false,
+      "token_type": "ERC20",
+      "upgradeable": false,
+      "has_blue_checkmark": true,
+      "gas_sponsored_strategy": 0,
+      "name": "XRP",
+      "symbol": "XRP",
+      "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/52.png",
+      "logo_svg_url": ""
+    }
+  ]
+}

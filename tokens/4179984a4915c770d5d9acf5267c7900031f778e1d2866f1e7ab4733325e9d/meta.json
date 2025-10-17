@@ -1,0 +1,40 @@
+{
+  "uuid": "4179984a4915c770d5d9acf5267c7900031f778e1d2866f1e7ab4733325e9d",
+  "name": "MX Token",
+  "symbol": "MX",
+  "has_gas_sponsored": false,
+  "is_stable_token": false,
+  "wrapped_token_uuid": "",
+  "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/4041.png",
+  "logo_svg_url": "",
+  "description": "MX Token (MX) is a cryptocurrency and operates on the Ethereum platform. MX Token has a current supply of 411,206,834 with 92,456,834 in circulation. The last known price of MX Token is 2.34801804 USD and is down -2.94 over the last 24 hours. It is currently trading on 31 active market(s) with $16,286,204.26 traded over the last 24 hours. More information can be found at https://www.mexc.com.",
+  "coin_market_cap_id": 4041,
+  "is_featured": false,
+  "order_index": 3540,
+  "website_url": "https://www.mexc.com",
+  "x_url": "https://twitter.com/MEXC_Official",
+  "discord_url": "",
+  "whitepaper_url": "",
+  "live_price_url": "",
+  "tags": [],
+  "is_scam": false,
+  "is_disabled": false,
+  "addresses": [
+    {
+      "address": "0x11eef04c884e24d9b7b4760e7476d06ddf797f36",
+      "token_uid": "4179984a4915c770d5d9acf5267c7900031f778e1d2866f1e7ab4733325e9d",
+      "network_id": 2,
+      "is_verified": true,
+      "decimals": 18,
+      "is_native": false,
+      "token_type": "ERC20",
+      "upgradeable": false,
+      "has_blue_checkmark": true,
+      "gas_sponsored_strategy": 0,
+      "name": "MX Token",
+      "symbol": "MX",
+      "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/4041.png",
+      "logo_svg_url": ""
+    }
+  ]
+}

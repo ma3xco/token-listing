@@ -1,0 +1,40 @@
+{
+  "uuid": "e21980b2a329398b3c6b6b3b03fe128bbb4dd26dc77ef32f0f716eb05c0903",
+  "name": "Drift",
+  "symbol": "DRIFT",
+  "has_gas_sponsored": false,
+  "is_stable_token": false,
+  "wrapped_token_uuid": "",
+  "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/31278.png",
+  "logo_svg_url": "",
+  "description": "Drift (DRIFT) is a cryptocurrency launched in 2022and operates on the Solana platform. Drift has a current supply of 1,000,000,000 with 381,809,730.334672 in circulation. The last known price of Drift is 0.49412662 USD and is down -6.96 over the last 24 hours. It is currently trading on 199 active market(s) with $31,678,871.22 traded over the last 24 hours. More information can be found at https://www.drift.trade/.",
+  "coin_market_cap_id": 31278,
+  "is_featured": false,
+  "order_index": 3740,
+  "website_url": "https://www.drift.trade/",
+  "x_url": "https://twitter.com/DriftProtocol",
+  "discord_url": "",
+  "whitepaper_url": "",
+  "live_price_url": "",
+  "tags": [],
+  "is_scam": false,
+  "is_disabled": false,
+  "addresses": [
+    {
+      "address": "DriFtupJYLTosbwoN8koMbEYSx54aFAVLddWsbksjwg7",
+      "token_uid": "e21980b2a329398b3c6b6b3b03fe128bbb4dd26dc77ef32f0f716eb05c0903",
+      "network_id": 4,
+      "is_verified": true,
+      "decimals": 6,
+      "is_native": false,
+      "token_type": "ERC20",
+      "upgradeable": false,
+      "has_blue_checkmark": true,
+      "gas_sponsored_strategy": 0,
+      "name": "Drift",
+      "symbol": "DRIFT",
+      "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/31278.png",
+      "logo_svg_url": ""
+    }
+  ]
+}

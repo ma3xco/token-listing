@@ -1,0 +1,40 @@
+{
+  "uuid": "1c5577ab736034f51132d0bc92392ea7c8687020f9b42ea0f59aa62eae609a",
+  "name": "Livepeer",
+  "symbol": "LPT",
+  "has_gas_sponsored": false,
+  "is_stable_token": false,
+  "wrapped_token_uuid": "",
+  "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/3640.png",
+  "logo_svg_url": "",
+  "description": "Livepeer (LPT) is a cryptocurrency and operates on the Ethereum platform. Livepeer has a current supply of 45,551,240.61306404. The last known price of Livepeer is 4.84430627 USD and is down -5.54 over the last 24 hours. It is currently trading on 288 active market(s) with $24,533,372.28 traded over the last 24 hours. More information can be found at https://livepeer.org/.",
+  "coin_market_cap_id": 3640,
+  "is_featured": false,
+  "order_index": 3460,
+  "website_url": "https://livepeer.org/",
+  "x_url": "https://twitter.com/Livepeer",
+  "discord_url": "",
+  "whitepaper_url": "",
+  "live_price_url": "",
+  "tags": [],
+  "is_scam": false,
+  "is_disabled": false,
+  "addresses": [
+    {
+      "address": "0x58b6a8a3302369daec383334672404ee733ab239",
+      "token_uid": "1c5577ab736034f51132d0bc92392ea7c8687020f9b42ea0f59aa62eae609a",
+      "network_id": 2,
+      "is_verified": true,
+      "decimals": 18,
+      "is_native": false,
+      "token_type": "ERC20",
+      "upgradeable": false,
+      "has_blue_checkmark": true,
+      "gas_sponsored_strategy": 0,
+      "name": "Livepeer",
+      "symbol": "LPT",
+      "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/3640.png",
+      "logo_svg_url": ""
+    }
+  ]
+}

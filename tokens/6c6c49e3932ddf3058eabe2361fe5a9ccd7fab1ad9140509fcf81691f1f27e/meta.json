@@ -1,0 +1,40 @@
+{
+  "uuid": "6c6c49e3932ddf3058eabe2361fe5a9ccd7fab1ad9140509fcf81691f1f27e",
+  "name": "Morpho",
+  "symbol": "MORPHO",
+  "has_gas_sponsored": false,
+  "is_stable_token": false,
+  "wrapped_token_uuid": "",
+  "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/34104.png",
+  "logo_svg_url": "",
+  "description": "Morpho (MORPHO) is a cryptocurrency launched in 2024and operates on the Ethereum platform. Morpho has a current supply of 1,000,000,000 with 352,900,229.93311612 in circulation. The last known price of Morpho is 1.66775831 USD and is down -9.01 over the last 24 hours. It is currently trading on 187 active market(s) with $87,283,704.77 traded over the last 24 hours. More information can be found at https://morpho.org/.",
+  "coin_market_cap_id": 34104,
+  "is_featured": false,
+  "order_index": 1880,
+  "website_url": "https://morpho.org/",
+  "x_url": "https://twitter.com/MorphoLabs",
+  "discord_url": "",
+  "whitepaper_url": "",
+  "live_price_url": "",
+  "tags": [],
+  "is_scam": false,
+  "is_disabled": false,
+  "addresses": [
+    {
+      "address": "0x58d97b57bb95320f9a05dc918aef65434969c2b2",
+      "token_uid": "6c6c49e3932ddf3058eabe2361fe5a9ccd7fab1ad9140509fcf81691f1f27e",
+      "network_id": 2,
+      "is_verified": true,
+      "decimals": 18,
+      "is_native": false,
+      "token_type": "ERC20",
+      "upgradeable": false,
+      "has_blue_checkmark": true,
+      "gas_sponsored_strategy": 0,
+      "name": "Morpho",
+      "symbol": "MORPHO",
+      "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/34104.png",
+      "logo_svg_url": ""
+    }
+  ]
+}

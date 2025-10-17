@@ -1,0 +1,40 @@
+{
+  "uuid": "cbb1be9fe534022315f23f98c828a231996114c241d14eaef891b665ed5e84",
+  "name": "Bitcoin Cash",
+  "symbol": "BCH",
+  "has_gas_sponsored": false,
+  "is_stable_token": false,
+  "wrapped_token_uuid": "",
+  "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/1831.png",
+  "logo_svg_url": "",
+  "description": "Bitcoin Cash (BCH) is a cryptocurrency . Users are able to generate BCH through the process of mining. Bitcoin Cash has a current supply of 19,940,271.875. The last known price of Bitcoin Cash is 464.19906307 USD and is down -10.04 over the last 24 hours. It is currently trading on 1079 active market(s) with $648,935,126.46 traded over the last 24 hours. More information can be found at http://bch.info.",
+  "coin_market_cap_id": 1831,
+  "is_featured": false,
+  "order_index": 300,
+  "website_url": "http://bch.info",
+  "x_url": "",
+  "discord_url": "",
+  "whitepaper_url": "",
+  "live_price_url": "",
+  "tags": [],
+  "is_scam": false,
+  "is_disabled": false,
+  "addresses": [
+    {
+      "address": "0x8ff795a6f4d97e7887c79bea79aba5cc76444adf",
+      "token_uid": "cbb1be9fe534022315f23f98c828a231996114c241d14eaef891b665ed5e84",
+      "network_id": 3,
+      "is_verified": true,
+      "decimals": 18,
+      "is_native": false,
+      "token_type": "ERC20",
+      "upgradeable": false,
+      "has_blue_checkmark": true,
+      "gas_sponsored_strategy": 0,
+      "name": "Bitcoin Cash",
+      "symbol": "BCH",
+      "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/1831.png",
+      "logo_svg_url": ""
+    }
+  ]
+}

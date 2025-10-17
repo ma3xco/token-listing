@@ -1,0 +1,40 @@
+{
+  "uuid": "e9c00741df60709b79f987c5a842057e6800186daf3b641f342cd6875e1c3e",
+  "name": "Nexo",
+  "symbol": "NEXO",
+  "has_gas_sponsored": false,
+  "is_stable_token": false,
+  "wrapped_token_uuid": "",
+  "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/2694.png",
+  "logo_svg_url": "",
+  "description": "Nexo (NEXO) is a cryptocurrency launched in 2018and operates on the Ethereum platform. Nexo has a current supply of 1,000,000,000 with 646,145,839.57468476 in circulation. The last known price of Nexo is 1.1352199 USD and is down -3.37 over the last 24 hours. It is currently trading on 168 active market(s) with $20,680,494.30 traded over the last 24 hours. More information can be found at https://nexo.com.",
+  "coin_market_cap_id": 2694,
+  "is_featured": false,
+  "order_index": 1640,
+  "website_url": "https://nexo.com",
+  "x_url": "https://twitter.com/Nexo",
+  "discord_url": "",
+  "whitepaper_url": "",
+  "live_price_url": "",
+  "tags": [],
+  "is_scam": false,
+  "is_disabled": false,
+  "addresses": [
+    {
+      "address": "0xb62132e35a6c13ee1ee0f84dc5d40bad8d815206",
+      "token_uid": "e9c00741df60709b79f987c5a842057e6800186daf3b641f342cd6875e1c3e",
+      "network_id": 2,
+      "is_verified": true,
+      "decimals": 18,
+      "is_native": false,
+      "token_type": "ERC20",
+      "upgradeable": false,
+      "has_blue_checkmark": true,
+      "gas_sponsored_strategy": 0,
+      "name": "Nexo",
+      "symbol": "NEXO",
+      "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/2694.png",
+      "logo_svg_url": ""
+    }
+  ]
+}

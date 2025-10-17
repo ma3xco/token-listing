@@ -1,0 +1,40 @@
+{
+  "uuid": "52ef763afc0e50ff5720cf16239c2ed09ba5414e61e19c29997937485ff725",
+  "name": "UNUS SED LEO",
+  "symbol": "LEO",
+  "has_gas_sponsored": false,
+  "is_stable_token": false,
+  "wrapped_token_uuid": "",
+  "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/3957.png",
+  "logo_svg_url": "",
+  "description": "UNUS SED LEO (LEO) is a cryptocurrency and operates on the Ethereum platform. UNUS SED LEO has a current supply of 985,239,504 with 922,406,960.9 in circulation. The last known price of UNUS SED LEO is 9.40936095 USD and is down -2.54 over the last 24 hours. It is currently trading on 64 active market(s) with $1,883,081.10 traded over the last 24 hours. More information can be found at https://www.bitfinex.com/.",
+  "coin_market_cap_id": 3957,
+  "is_featured": false,
+  "order_index": 340,
+  "website_url": "https://www.bitfinex.com/",
+  "x_url": "https://twitter.com/bitfinex",
+  "discord_url": "",
+  "whitepaper_url": "",
+  "live_price_url": "",
+  "tags": [],
+  "is_scam": false,
+  "is_disabled": false,
+  "addresses": [
+    {
+      "address": "0x2af5d2ad76741191d15dfe7bf6ac92d4bd912ca3",
+      "token_uid": "52ef763afc0e50ff5720cf16239c2ed09ba5414e61e19c29997937485ff725",
+      "network_id": 2,
+      "is_verified": true,
+      "decimals": 18,
+      "is_native": false,
+      "token_type": "ERC20",
+      "upgradeable": false,
+      "has_blue_checkmark": true,
+      "gas_sponsored_strategy": 0,
+      "name": "UNUS SED LEO",
+      "symbol": "LEO",
+      "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/3957.png",
+      "logo_svg_url": ""
+    }
+  ]
+}

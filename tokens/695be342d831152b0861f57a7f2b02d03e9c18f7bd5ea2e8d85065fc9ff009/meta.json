@@ -1,0 +1,40 @@
+{
+  "uuid": "695be342d831152b0861f57a7f2b02d03e9c18f7bd5ea2e8d85065fc9ff009",
+  "name": "Chiliz",
+  "symbol": "CHZ",
+  "has_gas_sponsored": false,
+  "is_stable_token": false,
+  "wrapped_token_uuid": "",
+  "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/4066.png",
+  "logo_svg_url": "",
+  "description": "Chiliz (CHZ) is a cryptocurrency launched in 2018and operates on the Ethereum platform. Chiliz has a current supply of 10,047,083,957. The last known price of Chiliz is 0.03270005 USD and is down -4.29 over the last 24 hours. It is currently trading on 562 active market(s) with $45,555,748.76 traded over the last 24 hours. More information can be found at https://www.chiliz.com/.",
+  "coin_market_cap_id": 4066,
+  "is_featured": false,
+  "order_index": 2760,
+  "website_url": "https://www.chiliz.com/",
+  "x_url": "https://twitter.com/chiliz",
+  "discord_url": "",
+  "whitepaper_url": "",
+  "live_price_url": "",
+  "tags": [],
+  "is_scam": false,
+  "is_disabled": false,
+  "addresses": [
+    {
+      "address": "0x3506424f91fd33084466f402d5d97f05f8e3b4af",
+      "token_uid": "695be342d831152b0861f57a7f2b02d03e9c18f7bd5ea2e8d85065fc9ff009",
+      "network_id": 2,
+      "is_verified": true,
+      "decimals": 18,
+      "is_native": false,
+      "token_type": "ERC20",
+      "upgradeable": false,
+      "has_blue_checkmark": true,
+      "gas_sponsored_strategy": 0,
+      "name": "Chiliz",
+      "symbol": "CHZ",
+      "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/4066.png",
+      "logo_svg_url": ""
+    }
+  ]
+}

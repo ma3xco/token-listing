@@ -1,0 +1,40 @@
+{
+  "uuid": "2ea04ffa00cd76ce624e8fe2de34b4d772b341aa3fb80ebcffa1a4e862a78d",
+  "name": "Plume",
+  "symbol": "PLUME",
+  "has_gas_sponsored": false,
+  "is_stable_token": false,
+  "wrapped_token_uuid": "",
+  "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/35364.png",
+  "logo_svg_url": "",
+  "description": "Plume (PLUME) is a cryptocurrency launched in 2025and operates on the Ethereum platform. Plume has a current supply of 10,000,000,000 with 3,034,573,413 in circulation. The last known price of Plume is 0.07250445 USD and is down -7.52 over the last 24 hours. It is currently trading on 157 active market(s) with $45,085,594.86 traded over the last 24 hours. More information can be found at https://plume.org.",
+  "coin_market_cap_id": 35364,
+  "is_featured": false,
+  "order_index": 3480,
+  "website_url": "https://plume.org",
+  "x_url": "https://twitter.com/plumenetwork",
+  "discord_url": "",
+  "whitepaper_url": "",
+  "live_price_url": "",
+  "tags": [],
+  "is_scam": false,
+  "is_disabled": false,
+  "addresses": [
+    {
+      "address": "0x4c1746a800d224393fe2470c70a35717ed4ea5f1",
+      "token_uid": "2ea04ffa00cd76ce624e8fe2de34b4d772b341aa3fb80ebcffa1a4e862a78d",
+      "network_id": 2,
+      "is_verified": true,
+      "decimals": 18,
+      "is_native": false,
+      "token_type": "ERC20",
+      "upgradeable": false,
+      "has_blue_checkmark": true,
+      "gas_sponsored_strategy": 0,
+      "name": "Plume",
+      "symbol": "PLUME",
+      "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/35364.png",
+      "logo_svg_url": ""
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "uuid": "1c065cacf482b1332cea3827826003c5d4efa4a7af995a782f208ca14b8c30",
+  "name": "Reserve Rights",
+  "symbol": "RSR",
+  "has_gas_sponsored": false,
+  "is_stable_token": false,
+  "wrapped_token_uuid": "",
+  "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/3964.png",
+  "logo_svg_url": "",
+  "description": "Reserve Rights (RSR) is a cryptocurrency and operates on the Ethereum platform. Reserve Rights has a current supply of 100,000,000,000 with 60,607,522,512 in circulation. The last known price of Reserve Rights is 0.00619399 USD and is down -5.90 over the last 24 hours. It is currently trading on 305 active market(s) with $50,192,569.93 traded over the last 24 hours. More information can be found at https://reserve.org/.",
+  "coin_market_cap_id": 3964,
+  "is_featured": false,
+  "order_index": 2580,
+  "website_url": "https://reserve.org/",
+  "x_url": "https://twitter.com/reserveprotocol",
+  "discord_url": "",
+  "whitepaper_url": "",
+  "live_price_url": "",
+  "tags": [],
+  "is_scam": false,
+  "is_disabled": false,
+  "addresses": [
+    {
+      "address": "0x320623b8e4ff03373931769a31fc52a4e78b5d70",
+      "token_uid": "1c065cacf482b1332cea3827826003c5d4efa4a7af995a782f208ca14b8c30",
+      "network_id": 2,
+      "is_verified": true,
+      "decimals": 18,
+      "is_native": false,
+      "token_type": "ERC20",
+      "upgradeable": false,
+      "has_blue_checkmark": true,
+      "gas_sponsored_strategy": 0,
+      "name": "Reserve Rights",
+      "symbol": "RSR",
+      "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/3964.png",
+      "logo_svg_url": ""
+    }
+  ]
+}
