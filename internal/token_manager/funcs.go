@@ -29,6 +29,36 @@ func (tm *tokenManager) setDefaults() {
 	tm.networkTokenAddresses = make(map[int64]map[string]string)
 }
 
+// validateURL validates that a URL is safe and uses allowed schemes
+func (tm *tokenManager) validateURL(urlStr string, fieldName string) error {
+	if strings.TrimSpace(urlStr) == "" {
+		return nil // Empty URLs are handled separately
+	}
+
+	parsedURL, err := url.Parse(urlStr)
+	if err != nil {
+		return fmt.Errorf("invalid %s URL format: %v", fieldName, err)
+	}
+
+	// Only allow http and https schemes
+	scheme := strings.ToLower(parsedURL.Scheme)
+	if scheme != "http" && scheme != "https" {
+		return fmt.Errorf("invalid %s URL scheme '%s': only http and https are allowed", fieldName, parsedURL.Scheme)
+	}
+
+	// Reject URLs with credentials in them
+	if parsedURL.User != nil {
+		return fmt.Errorf("invalid %s URL: credentials in URL are not allowed", fieldName)
+	}
+
+	// Ensure host is present
+	if parsedURL.Host == "" {
+		return fmt.Errorf("invalid %s URL: host is required", fieldName)
+	}
+
+	return nil
+}
+
 func (tm *tokenManager) init(ctx context.Context) error {
 	err := tm.loadNetworks(ctx)
 	if err != nil {
@@ -146,9 +176,8 @@ func (tm *tokenManager) ValidateTokens(ctx context.Context) map[string][]error {
 		if strings.TrimSpace(token.LogoPngUrl) == "" {
 			errors = append(errors, fmt.Errorf("logo PNG URL is required"))
 		} else {
-			// Validate logo URL format
-			if _, err := url.Parse(token.LogoPngUrl); err != nil {
-				errors = append(errors, fmt.Errorf("invalid logo PNG URL format: %v", err))
+			if err := tm.validateURL(token.LogoPngUrl, "logo PNG"); err != nil {
+				errors = append(errors, err)
 			}
 		}
 
@@ -169,42 +198,30 @@ func (tm *tokenManager) ValidateTokens(ctx context.Context) map[string][]error {
 		}
 
 		// Validate LivePriceUrl format if provided
-		if strings.TrimSpace(token.LivePriceUrl) != "" {
-			if _, err := url.Parse(token.LivePriceUrl); err != nil {
-				errors = append(errors, fmt.Errorf("invalid LivePriceUrl format: %v", err))
-			}
+		if err := tm.validateURL(token.LivePriceUrl, "LivePrice"); err != nil {
+			errors = append(errors, err)
 		}
 
 		// Validate URLs format
-		if strings.TrimSpace(token.WebsiteUrl) != "" {
-			if _, err := url.Parse(token.WebsiteUrl); err != nil {
-				errors = append(errors, fmt.Errorf("invalid website URL format: %v", err))
-			}
+		if err := tm.validateURL(token.WebsiteUrl, "website"); err != nil {
+			errors = append(errors, err)
 		}
 
-		if strings.TrimSpace(token.XUrl) != "" {
-			if _, err := url.Parse(token.XUrl); err != nil {
-				errors = append(errors, fmt.Errorf("invalid X (Twitter) URL format: %v", err))
-			}
+		if err := tm.validateURL(token.XUrl, "X (Twitter)"); err != nil {
+			errors = append(errors, err)
 		}
 
-		if strings.TrimSpace(token.DiscordUrl) != "" {
-			if _, err := url.Parse(token.DiscordUrl); err != nil {
-				errors = append(errors, fmt.Errorf("invalid Discord URL format: %v", err))
-			}
+		if err := tm.validateURL(token.DiscordUrl, "Discord"); err != nil {
+			errors = append(errors, err)
 		}
 
-		if strings.TrimSpace(token.WhitepaperUrl) != "" {
-			if _, err := url.Parse(token.WhitepaperUrl); err != nil {
-				errors = append(errors, fmt.Errorf("invalid whitepaper URL format: %v", err))
-			}
+		if err := tm.validateURL(token.WhitepaperUrl, "whitepaper"); err != nil {
+			errors = append(errors, err)
 		}
 
 		// Validate SVG logo URL format if provided
-		if strings.TrimSpace(token.LogoSvgUrl) != "" {
-			if _, err := url.Parse(token.LogoSvgUrl); err != nil {
-				errors = append(errors, fmt.Errorf("invalid logo SVG URL format: %v", err))
-			}
+		if err := tm.validateURL(token.LogoSvgUrl, "logo SVG"); err != nil {
+			errors = append(errors, err)
 		}
 
 		// Validate token addresses
@@ -343,17 +360,13 @@ func (tm *tokenManager) validateTokenAddress(address models.TokenAddress, index 
 	}
 
 	// Validate logo PNG URL format if provided
-	if strings.TrimSpace(address.LogoPngUrl) != "" {
-		if _, err := url.Parse(address.LogoPngUrl); err != nil {
-			errors = append(errors, fmt.Errorf("address[%d]: invalid logo PNG URL format: %v", index, err))
-		}
+	if err := tm.validateURL(address.LogoPngUrl, fmt.Sprintf("address[%d] logo PNG", index)); err != nil {
+		errors = append(errors, err)
 	}
 
 	// Validate logo SVG URL format if provided
-	if strings.TrimSpace(address.LogoSvgUrl) != "" {
-		if _, err := url.Parse(address.LogoSvgUrl); err != nil {
-			errors = append(errors, fmt.Errorf("address[%d]: invalid logo SVG URL format: %v", index, err))
-		}
+	if err := tm.validateURL(address.LogoSvgUrl, fmt.Sprintf("address[%d] logo SVG", index)); err != nil {
+		errors = append(errors, err)
 	}
 
 	return errors
