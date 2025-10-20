@@ -8,6 +8,7 @@ import (
 	"image/png"
 	"net/url"
 	"os"
+	"path/filepath"
 	"regexp"
 	"strings"
 
@@ -49,6 +50,23 @@ func (tm *tokenManager) WalkThrough(ctx context.Context) (int, error) {
 			continue
 		}
 		tknUid := entry.Name()
+
+		// Security fix: Prevent path traversal attacks
+		tknUid = filepath.Clean(tknUid)
+		if strings.Contains(tknUid, "..") ||
+			strings.Contains(tknUid, "/") ||
+			strings.Contains(tknUid, "\\") ||
+			strings.HasPrefix(tknUid, ".") {
+			tm.logger.Warnf("Rejected suspicious token UID: %s", tknUid)
+			continue
+		}
+
+		// Additional validation: only alphanumeric, dash, and underscore
+		matched, _ := regexp.MatchString(`^[a-zA-Z0-9_-]+$`, tknUid)
+		if !matched {
+			tm.logger.Warnf("Invalid token UID format: %s", tknUid)
+			continue
+		}
 
 		metaFile, err := os.ReadFile(fmt.Sprintf("tokens/%s/meta.json", tknUid))
 		if err != nil {
