@@ -7,7 +7,7 @@
   "wrapped_token_uuid": "",
   "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/2.png",
   "logo_svg_url": "",
-  "description": "Litecoin (LTC) is a cryptocurrency . Users are able to generate LTC through the process of mining. Litecoin has a current supply of 84,000,000 with 76,417,808.23347135 in circulation. The last known price of Litecoin is 90.15414546 USD and is down -2.50 over the last 24 hours. It is currently trading on 1446 active market(s) with $1,175,829,537.26 traded over the last 24 hours. More information can be found at https://litecoin.org/.",
+  "description": "Litecoin (LTC) is a cryptocurrency . Users are able to generate LTC through the process of mining. Litecoin has a current supply of 84,000,000 with 76,436,108.23347135 in circulation. The last known price of Litecoin is 93.80969986 USD and is down -2.90 over the last 24 hours. It is currently trading on 1450 active market(s) with $780,065,024.62 traded over the last 24 hours. More information can be found at https://litecoin.org/.",
   "coin_market_cap_id": 2,
   "is_featured": false,
   "order_index": 380,
@@ -19,6 +19,7 @@
   "tags": [],
   "is_scam": false,
   "is_disabled": false,
+  "is_tracking": true,
   "addresses": [
     {
       "address": "0x4338665cbb7b2485a8855a139b75d5e34ab0db94",

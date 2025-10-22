@@ -7,10 +7,10 @@
   "wrapped_token_uuid": "",
   "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/4269.png",
   "logo_svg_url": "",
-  "description": "GateToken (GT) is a cryptocurrency launched in 2019and operates on the Ethereum platform. GateToken has a current supply of 117,344,473.53114802 with 80,273,100.11739568 in circulation. The last known price of GateToken is 15.46609124 USD and is down -2.18 over the last 24 hours. It is currently trading on 38 active market(s) with $8,778,569.73 traded over the last 24 hours. More information can be found at https://gatechain.io/.",
+  "description": "GateToken (GT) is a cryptocurrency launched in 2019and operates on the Ethereum platform. GateToken has a current supply of 117,344,473.53114802 with 80,272,552.7526261 in circulation. The last known price of GateToken is 15.73392085 USD and is down -0.96 over the last 24 hours. It is currently trading on 39 active market(s) with $5,937,132.17 traded over the last 24 hours. More information can be found at https://gatechain.io/.",
   "coin_market_cap_id": 4269,
   "is_featured": false,
-  "order_index": 1240,
+  "order_index": 1220,
   "website_url": "https://gatechain.io/",
   "x_url": "https://twitter.com/gatechain_io",
   "discord_url": "",
@@ -19,6 +19,7 @@
   "tags": [],
   "is_scam": false,
   "is_disabled": false,
+  "is_tracking": true,
   "addresses": [
     {
       "address": "0xe66747a101bff2dba3697199dcce5b743b454759",

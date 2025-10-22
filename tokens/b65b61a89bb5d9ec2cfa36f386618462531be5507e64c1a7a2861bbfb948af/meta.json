@@ -7,10 +7,10 @@
   "wrapped_token_uuid": "",
   "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/11419.png",
   "logo_svg_url": "",
-  "description": "Toncoin (TON) is a cryptocurrency . Toncoin has a current supply of 5,143,343,734.24163602 with 2,519,937,387.40349702 in circulation. The last known price of Toncoin is 2.11965805 USD and is down -5.45 over the last 24 hours. It is currently trading on 813 active market(s) with $245,847,747.66 traded over the last 24 hours. More information can be found at https://ton.org/.",
+  "description": "Toncoin (TON) is a cryptocurrency . Toncoin has a current supply of 5,143,774,438.38709097 with 2,520,361,256.49892644 in circulation. The last known price of Toncoin is 2.1254742 USD and is down -5.08 over the last 24 hours. It is currently trading on 817 active market(s) with $169,155,741.94 traded over the last 24 hours. More information can be found at https://ton.org/.",
   "coin_market_cap_id": 11419,
   "is_featured": false,
-  "order_index": 460,
+  "order_index": 480,
   "website_url": "https://ton.org/",
   "x_url": "https://twitter.com/ton_blockchain",
   "discord_url": "",
@@ -19,6 +19,7 @@
   "tags": [],
   "is_scam": false,
   "is_disabled": false,
+  "is_tracking": true,
   "addresses": [
     {
       "address": "0x582d872a1b094fc48f5de31d3b73f2d9be47def1",

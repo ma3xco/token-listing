@@ -7,7 +7,7 @@
   "wrapped_token_uuid": "",
   "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/1839.png",
   "logo_svg_url": "",
-  "description": "BNB (BNB) is a cryptocurrency . BNB has a current supply of 139,180,975.01. The last known price of BNB is 1,070.68380291 USD and is down -7.12 over the last 24 hours. It is currently trading on 2825 active market(s) with $6,975,108,685.12 traded over the last 24 hours. More information can be found at https://bnbchain.org/en.",
+  "description": "BNB (BNB) is a cryptocurrency . BNB has a current supply of 139,180,228.31. The last known price of BNB is 1,067.70201651 USD and is down -2.34 over the last 24 hours. It is currently trading on 2866 active market(s) with $3,693,018,494.41 traded over the last 24 hours. More information can be found at https://bnbchain.org/en.",
   "coin_market_cap_id": 1839,
   "is_featured": true,
   "order_index": 80,
@@ -19,6 +19,7 @@
   "tags": [],
   "is_scam": false,
   "is_disabled": false,
+  "is_tracking": true,
   "addresses": [
     {
       "address": "0xb8c77482e45f1f44de1745f52c74426c631bdd52",

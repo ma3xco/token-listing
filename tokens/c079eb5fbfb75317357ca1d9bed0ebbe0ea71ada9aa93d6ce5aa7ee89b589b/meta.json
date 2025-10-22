@@ -7,7 +7,7 @@
   "wrapped_token_uuid": "",
   "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/2087.png",
   "logo_svg_url": "",
-  "description": "KuCoin Token (KCS) is a cryptocurrency and operates on the Ethereum platform. KuCoin Token has a current supply of 142,275,851.73556715 with 129,775,851.73556715 in circulation. The last known price of KuCoin Token is 13.67672547 USD and is down -2.98 over the last 24 hours. It is currently trading on 65 active market(s) with $13,252,962.36 traded over the last 24 hours. More information can be found at https://www.kucoin.com/.",
+  "description": "KuCoin Token (KCS) is a cryptocurrency and operates on the Ethereum platform. KuCoin Token has a current supply of 142,275,851.73556715 with 129,775,851.73556715 in circulation. The last known price of KuCoin Token is 13.23509314 USD and is down -3.45 over the last 24 hours. It is currently trading on 65 active market(s) with $7,494,321.47 traded over the last 24 hours. More information can be found at https://www.kucoin.com/.",
   "coin_market_cap_id": 2087,
   "is_featured": false,
   "order_index": 940,
@@ -19,6 +19,7 @@
   "tags": [],
   "is_scam": false,
   "is_disabled": false,
+  "is_tracking": true,
   "addresses": [
     {
       "address": "0xf34960d9d60be18cc1d5afc1a6f012a723a28811",

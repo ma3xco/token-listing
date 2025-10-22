@@ -7,7 +7,7 @@
   "wrapped_token_uuid": "",
   "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/5994.png",
   "logo_svg_url": "",
-  "description": "Shiba Inu (SHIB) is a cryptocurrency launched in 2020and operates on the Ethereum platform. Shiba Inu has a current supply of 589,500,880,604,645.6601496 with 589,245,565,365,657.54979131 in circulation. The last known price of Shiba Inu is 0.0000097 USD and is down -5.27 over the last 24 hours. It is currently trading on 1010 active market(s) with $298,600,521.30 traded over the last 24 hours. More information can be found at https://shibatoken.com/.",
+  "description": "Shiba Inu (SHIB) is a cryptocurrency launched in 2020and operates on the Ethereum platform. Shiba Inu has a current supply of 589,500,835,355,420.49019542 with 589,245,519,266,271.52493713 in circulation. The last known price of Shiba Inu is 0.00000988 USD and is down -4.85 over the last 24 hours. It is currently trading on 1011 active market(s) with $186,962,681.57 traded over the last 24 hours. More information can be found at https://shibatoken.com/.",
   "coin_market_cap_id": 5994,
   "is_featured": false,
   "order_index": 420,
@@ -19,6 +19,7 @@
   "tags": [],
   "is_scam": false,
   "is_disabled": false,
+  "is_tracking": true,
   "addresses": [
     {
       "address": "0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce",

@@ -7,10 +7,10 @@
   "wrapped_token_uuid": "",
   "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/10603.png",
   "logo_svg_url": "",
-  "description": "Immutable (IMX) is a cryptocurrency launched in 2021and operates on the Ethereum platform. Immutable has a current supply of 2,000,000,000 with 1,964,455,311.38981415 in circulation. The last known price of Immutable is 0.49185138 USD and is down -8.28 over the last 24 hours. It is currently trading on 405 active market(s) with $62,370,360.58 traded over the last 24 hours. More information can be found at https://www.immutable.com/.",
+  "description": "Immutable (IMX) is a cryptocurrency launched in 2021and operates on the Ethereum platform. Immutable has a current supply of 2,000,000,000 with 1,964,455,311.38981415 in circulation. The last known price of Immutable is 0.51008024 USD and is down -6.36 over the last 24 hours. It is currently trading on 405 active market(s) with $48,717,901.16 traded over the last 24 hours. More information can be found at https://www.immutable.com/.",
   "coin_market_cap_id": 10603,
   "is_featured": false,
-  "order_index": 1440,
+  "order_index": 1420,
   "website_url": "https://www.immutable.com/",
   "x_url": "https://twitter.com/Immutable",
   "discord_url": "",
@@ -19,6 +19,7 @@
   "tags": [],
   "is_scam": false,
   "is_disabled": false,
+  "is_tracking": true,
   "addresses": [
     {
       "address": "0xf57e7e7c23978c3caec3c3548e3d615c346e79ff",

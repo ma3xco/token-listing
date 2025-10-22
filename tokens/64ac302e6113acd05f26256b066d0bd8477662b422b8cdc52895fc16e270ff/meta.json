@@ -7,10 +7,10 @@
   "wrapped_token_uuid": "",
   "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/28321.png",
   "logo_svg_url": "",
-  "description": "Polygon (prev. MATIC) (POL) is a cryptocurrency launched in 2023and operates on the Ethereum platform. Polygon (prev. MATIC) has a current supply of 10,518,510,647.48131158 with 10,518,510,637.48131158 in circulation. The last known price of Polygon (prev. MATIC) is 0.18507467 USD and is down -3.78 over the last 24 hours. It is currently trading on 576 active market(s) with $169,012,742.72 traded over the last 24 hours. More information can be found at https://polygon.technology/.",
+  "description": "Polygon (prev. MATIC) (POL) is a cryptocurrency launched in 2023and operates on the Ethereum platform. Polygon (prev. MATIC) has a current supply of 10,524,720,168.29723118 with 10,524,720,158.29723118 in circulation. The last known price of Polygon (prev. MATIC) is 0.19092409 USD and is down -5.23 over the last 24 hours. It is currently trading on 577 active market(s) with $134,427,165.11 traded over the last 24 hours. More information can be found at https://polygon.technology/.",
   "coin_market_cap_id": 28321,
   "is_featured": false,
-  "order_index": 900,
+  "order_index": 880,
   "website_url": "https://polygon.technology/",
   "x_url": "https://twitter.com/0xPolygon",
   "discord_url": "",
@@ -19,6 +19,7 @@
   "tags": [],
   "is_scam": false,
   "is_disabled": false,
+  "is_tracking": true,
   "addresses": [
     {
       "address": "0x455e53cbb86018ac2b8092fdcd39d8444affc3f6",

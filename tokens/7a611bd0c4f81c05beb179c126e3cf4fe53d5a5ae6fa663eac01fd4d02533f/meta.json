@@ -7,7 +7,7 @@
   "wrapped_token_uuid": "",
   "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/1027.png",
   "logo_svg_url": "",
-  "description": "Ethereum (ETH) is a cryptocurrency . Ethereum has a current supply of 120,698,693.7463178. The last known price of Ethereum is 3,791.84756444 USD and is down -4.07 over the last 24 hours. It is currently trading on 10908 active market(s) with $61,829,105,210.91 traded over the last 24 hours. More information can be found at https://www.ethereum.org/.",
+  "description": "Ethereum (ETH) is a cryptocurrency . Ethereum has a current supply of 120,698,359.21669125. The last known price of Ethereum is 3,814.02689431 USD and is down -4.98 over the last 24 hours. It is currently trading on 10926 active market(s) with $46,592,355,493.66 traded over the last 24 hours. More information can be found at https://www.ethereum.org/.",
   "coin_market_cap_id": 1027,
   "is_featured": true,
   "order_index": 40,
@@ -19,6 +19,7 @@
   "tags": [],
   "is_scam": false,
   "is_disabled": false,
+  "is_tracking": true,
   "addresses": [
     {
       "address": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",

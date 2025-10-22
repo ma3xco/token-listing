@@ -7,7 +7,7 @@
   "wrapped_token_uuid": "",
   "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/5805.png",
   "logo_svg_url": "",
-  "description": "Avalanche (AVAX) is a cryptocurrency launched in 2020. Avalanche has a current supply of 459,769,454.0564179 with 426,433,554.0564179 in circulation. The last known price of Avalanche is 19.94894439 USD and is down -6.64 over the last 24 hours. It is currently trading on 991 active market(s) with $1,011,340,845.36 traded over the last 24 hours. More information can be found at https://avax.network/.",
+  "description": "Avalanche (AVAX) is a cryptocurrency launched in 2020. Avalanche has a current supply of 459,900,551.4325847 with 426,564,651.4325847 in circulation. The last known price of Avalanche is 19.30991533 USD and is down -5.59 over the last 24 hours. It is currently trading on 996 active market(s) with $545,907,869.55 traded over the last 24 hours. More information can be found at https://avax.network/.",
   "coin_market_cap_id": 5805,
   "is_featured": false,
   "order_index": 360,
@@ -19,6 +19,7 @@
   "tags": [],
   "is_scam": false,
   "is_disabled": false,
+  "is_tracking": true,
   "addresses": [
     {
       "address": "0x1ce0c2827e2ef14d5c4f29a091d735a204794041",

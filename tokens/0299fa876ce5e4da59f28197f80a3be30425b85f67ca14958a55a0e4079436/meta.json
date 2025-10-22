@@ -7,7 +7,7 @@
   "wrapped_token_uuid": "",
   "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/1.png",
   "logo_svg_url": "",
-  "description": "Bitcoin (BTC) is a cryptocurrency launched in 2010. Users are able to generate BTC through the process of mining. Bitcoin has a current supply of 19,935,981. The last known price of Bitcoin is 106,477.73132767 USD and is down -2.27 over the last 24 hours. It is currently trading on 12433 active market(s) with $108,182,974,744.97 traded over the last 24 hours. More information can be found at https://bitcoin.org/.",
+  "description": "Bitcoin (BTC) is a cryptocurrency launched in 2010. Users are able to generate BTC through the process of mining. Bitcoin has a current supply of 19,938,343. The last known price of Bitcoin is 107,832.43137408 USD and is down -3.89 over the last 24 hours. It is currently trading on 12442 active market(s) with $88,340,635,662.68 traded over the last 24 hours. More information can be found at https://bitcoin.org/.",
   "coin_market_cap_id": 1,
   "is_featured": true,
   "order_index": 20,
@@ -19,6 +19,7 @@
   "tags": [],
   "is_scam": false,
   "is_disabled": false,
+  "is_tracking": true,
   "addresses": [
     {
       "address": "BTC",

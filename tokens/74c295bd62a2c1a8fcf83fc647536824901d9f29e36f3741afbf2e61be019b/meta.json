@@ -7,10 +7,10 @@
   "wrapped_token_uuid": "",
   "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/23095.png",
   "logo_svg_url": "",
-  "description": "Bonk (BONK) is a cryptocurrency launched in 2022and operates on the Ethereum platform. Bonk has a current supply of 87,995,318,397,898.9375 with 81,760,592,132,452.59375 in circulation. The last known price of Bonk is 0.00001384 USD and is down -7.09 over the last 24 hours. It is currently trading on 768 active market(s) with $345,713,107.02 traded over the last 24 hours. More information can be found at https://www.bonkcoin.com/.",
+  "description": "Bonk (BONK) is a cryptocurrency launched in 2022and operates on the Ethereum platform. Bonk has a current supply of 87,995,314,628,286.21875 with 81,830,317,657,251.703125 in circulation. The last known price of Bonk is 0.00001409 USD and is down -7.55 over the last 24 hours. It is currently trading on 770 active market(s) with $213,171,302.41 traded over the last 24 hours. More information can be found at https://www.bonkcoin.com/.",
   "coin_market_cap_id": 23095,
   "is_featured": false,
-  "order_index": 1300,
+  "order_index": 1280,
   "website_url": "https://www.bonkcoin.com/",
   "x_url": "https://twitter.com/bonk_inu",
   "discord_url": "",
@@ -19,6 +19,7 @@
   "tags": [],
   "is_scam": false,
   "is_disabled": false,
+  "is_tracking": true,
   "addresses": [
     {
       "address": "0x1151cb3d861920e07a38e03eead12c32178567f6",

@@ -7,10 +7,10 @@
   "wrapped_token_uuid": "",
   "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/4705.png",
   "logo_svg_url": "",
-  "description": "PAX Gold (PAXG) is a cryptocurrency launched in 2019and operates on the Ethereum platform. PAX Gold has a current supply of 320,555.694. The last known price of PAX Gold is 4,210.94779262 USD and is down -2.55 over the last 24 hours. It is currently trading on 289 active market(s) with $1,161,784,684.10 traded over the last 24 hours. More information can be found at https://www.paxos.com/paxgold/.",
+  "description": "PAX Gold (PAXG) is a cryptocurrency launched in 2019and operates on the Ethereum platform. PAX Gold has a current supply of 330,178.015. The last known price of PAX Gold is 4,076.55939478 USD and is down -1.01 over the last 24 hours. It is currently trading on 292 active market(s) with $719,817,976.05 traded over the last 24 hours. More information can be found at https://www.paxos.com/paxgold/.",
   "coin_market_cap_id": 4705,
   "is_featured": false,
-  "order_index": 1140,
+  "order_index": 1120,
   "website_url": "https://www.paxos.com/paxgold/",
   "x_url": "https://twitter.com/paxosglobal",
   "discord_url": "",
@@ -19,6 +19,7 @@
   "tags": [],
   "is_scam": false,
   "is_disabled": false,
+  "is_tracking": true,
   "addresses": [
     {
       "address": "0x45804880de22913dafe09f4980848ece6ecbaf78",

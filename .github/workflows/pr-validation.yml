@@ -27,7 +27,27 @@ jobs:
         id: validation
         run: |
           set +e
-          OUTPUT=$(go run ./scripts/validate/validate.go 2>&1)
+          
+          # Check if PR is from a fork
+          IS_FORK="false"
+          if [ "${{ github.event.pull_request.head.repo.full_name }}" != "${{ github.repository }}" ]; then
+            IS_FORK="true"
+          fi
+          
+          # Check if PR has script tag
+          HAS_SCRIPT_TAG="false"
+          LABELS='${{ toJson(github.event.pull_request.labels) }}'
+          if echo "$LABELS" | jq -r '.[].name' | grep -q "script"; then
+            HAS_SCRIPT_TAG="true"
+          fi
+          
+          # Get changed files
+          CHANGED_FILES=""
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            CHANGED_FILES=$(git diff --name-only ${{ github.event.pull_request.base.sha }} ${{ github.event.pull_request.head.sha }} | tr '\n' ',' | sed 's/,$//')
+          fi
+          
+          OUTPUT=$(go run ./scripts/validate/validate.go -fork="$IS_FORK" -script="$HAS_SCRIPT_TAG" -files="$CHANGED_FILES" 2>&1)
           EXIT_CODE=$?
           set -e
           echo "exit_code=$EXIT_CODE" >> $GITHUB_OUTPUT

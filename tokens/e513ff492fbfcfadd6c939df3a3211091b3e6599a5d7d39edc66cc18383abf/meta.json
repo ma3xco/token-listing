@@ -7,7 +7,7 @@
   "wrapped_token_uuid": "",
   "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/5426.png",
   "logo_svg_url": "",
-  "description": "Solana (SOL) is a cryptocurrency launched in 2020. Solana has a current supply of 612,006,792.8866688 with 546,831,719.14860666 in circulation. The last known price of Solana is 183.29472698 USD and is down -3.96 over the last 24 hours. It is currently trading on 1025 active market(s) with $11,458,206,483.83 traded over the last 24 hours. More information can be found at https://solana.com.",
+  "description": "Solana (SOL) is a cryptocurrency launched in 2020. Solana has a current supply of 612,427,730.0138712 with 546,664,323.90146971 in circulation. The last known price of Solana is 181.79397599 USD and is down -6.62 over the last 24 hours. It is currently trading on 1030 active market(s) with $7,258,900,401.94 traded over the last 24 hours. More information can be found at https://solana.com.",
   "coin_market_cap_id": 5426,
   "is_featured": true,
   "order_index": 120,
@@ -19,6 +19,7 @@
   "tags": [],
   "is_scam": false,
   "is_disabled": false,
+  "is_tracking": true,
   "addresses": [
     {
       "address": "So11111111111111111111111111111111111111111",

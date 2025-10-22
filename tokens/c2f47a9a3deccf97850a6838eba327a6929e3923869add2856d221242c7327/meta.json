@@ -7,10 +7,10 @@
   "wrapped_token_uuid": "",
   "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/35491.png",
   "logo_svg_url": "",
-  "description": "MemeCore (M) is a cryptocurrency launched in 2025and operates on the BNB Smart Chain (BEP20) platform. MemeCore has a current supply of 5,264,317,858.42 with 1,039,501,066 in circulation. The last known price of MemeCore is 1.91443688 USD and is down -4.43 over the last 24 hours. It is currently trading on 92 active market(s) with $18,202,507.85 traded over the last 24 hours. More information can be found at https://memecore.com/.",
+  "description": "MemeCore (M) is a cryptocurrency launched in 2025and operates on the BNB Smart Chain (BEP20) platform. MemeCore has a current supply of 5,264,317,858.42 with 1,039,501,066 in circulation. The last known price of MemeCore is 2.14753003 USD and is up 2.83 over the last 24 hours. It is currently trading on 92 active market(s) with $18,509,765.93 traded over the last 24 hours. More information can be found at https://memecore.com/.",
   "coin_market_cap_id": 35491,
   "is_featured": false,
-  "order_index": 880,
+  "order_index": 860,
   "website_url": "https://memecore.com/",
   "x_url": "https://twitter.com/MemeCore_ORG",
   "discord_url": "",
@@ -19,6 +19,7 @@
   "tags": [],
   "is_scam": false,
   "is_disabled": false,
+  "is_tracking": true,
   "addresses": [
     {
       "address": "0x22b1458e780f8fa71e2f84502cee8b5a3cc731fa",
