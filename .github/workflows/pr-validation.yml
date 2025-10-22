@@ -36,7 +36,8 @@ jobs:
           
           # Check if PR has script tag
           HAS_SCRIPT_TAG="false"
-          if echo "${{ github.event.pull_request.labels }}" | grep -q "script"; then
+          LABELS='${{ toJson(github.event.pull_request.labels) }}'
+          if echo "$LABELS" | jq -r '.[].name' | grep -q "script"; then
             HAS_SCRIPT_TAG="true"
           fi
           
