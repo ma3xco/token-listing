@@ -8,6 +8,7 @@ import (
 	"image/png"
 	"net/url"
 	"os"
+	"path/filepath"
 	"regexp"
 	"strings"
 
@@ -26,6 +27,42 @@ func (tm *tokenManager) setDefaults() {
 	tm.featuredTokens = make(map[string]struct{})
 	tm.coinMarketcapIdToTokenUid = make(map[int64]string)
 	tm.networkTokenAddresses = make(map[int64]map[string]string)
+}
+
+// validateURL validates that a URL is safe and uses allowed schemes
+func (tm *tokenManager) validateURL(urlStr string, fieldName string, required bool) error {
+	trimmed := strings.TrimSpace(urlStr)
+
+	// If URL is empty
+	if trimmed == "" {
+		if required {
+			return fmt.Errorf("%s URL is required", fieldName)
+		}
+		return nil // Empty optional URLs are OK
+	}
+
+	parsedURL, err := url.Parse(trimmed)
+	if err != nil {
+		return fmt.Errorf("invalid %s URL format: %v", fieldName, err)
+	}
+
+	// Only allow http and https schemes
+	scheme := strings.ToLower(parsedURL.Scheme)
+	if scheme != "http" && scheme != "https" {
+		return fmt.Errorf("invalid %s URL scheme '%s': only http and https are allowed", fieldName, parsedURL.Scheme)
+	}
+
+	// Reject URLs with credentials in them
+	if parsedURL.User != nil {
+		return fmt.Errorf("invalid %s URL: credentials in URL are not allowed", fieldName)
+	}
+
+	// Ensure host is present
+	if parsedURL.Host == "" {
+		return fmt.Errorf("invalid %s URL: host is required", fieldName)
+	}
+
+	return nil
 }
 
 func (tm *tokenManager) init(ctx context.Context) error {
@@ -49,6 +86,23 @@ func (tm *tokenManager) WalkThrough(ctx context.Context) (int, error) {
 			continue
 		}
 		tknUid := entry.Name()
+
+		// Security fix: Prevent path traversal attacks
+		tknUid = filepath.Clean(tknUid)
+		if strings.Contains(tknUid, "..") ||
+			strings.Contains(tknUid, "/") ||
+			strings.Contains(tknUid, "\\") ||
+			strings.HasPrefix(tknUid, ".") {
+			tm.logger.Warnf("Rejected suspicious token UID: %s", tknUid)
+			continue
+		}
+
+		// Additional validation: only alphanumeric, dash, and underscore
+		matched, _ := regexp.MatchString(`^[a-zA-Z0-9_-]+$`, tknUid)
+		if !matched {
+			tm.logger.Warnf("Invalid token UID format: %s", tknUid)
+			continue
+		}
 
 		metaFile, err := os.ReadFile(fmt.Sprintf("tokens/%s/meta.json", tknUid))
 		if err != nil {
@@ -124,14 +178,9 @@ func (tm *tokenManager) ValidateTokens(ctx context.Context) map[string][]error {
 			errors = append(errors, fmt.Errorf("token description is required"))
 		}
 
-		// Validate logo PNG URL
-		if strings.TrimSpace(token.LogoPngUrl) == "" {
-			errors = append(errors, fmt.Errorf("logo PNG URL is required"))
-		} else {
-			// Validate logo URL format
-			if _, err := url.Parse(token.LogoPngUrl); err != nil {
-				errors = append(errors, fmt.Errorf("invalid logo PNG URL format: %v", err))
-			}
+		// Validate logo PNG URL (required)
+		if err := tm.validateURL(token.LogoPngUrl, "logo PNG", true); err != nil {
+			errors = append(errors, err)
 		}
 
 		// Validate logo file exists and is 64x64 PNG
@@ -150,43 +199,31 @@ func (tm *tokenManager) ValidateTokens(ctx context.Context) map[string][]error {
 			errors = append(errors, fmt.Errorf("CoinMarketCap ID must be positive"))
 		}
 
-		// Validate LivePriceUrl format if provided
-		if strings.TrimSpace(token.LivePriceUrl) != "" {
-			if _, err := url.Parse(token.LivePriceUrl); err != nil {
-				errors = append(errors, fmt.Errorf("invalid LivePriceUrl format: %v", err))
-			}
+		// Validate LivePriceUrl format if provided (optional)
+		if err := tm.validateURL(token.LivePriceUrl, "LivePrice", false); err != nil {
+			errors = append(errors, err)
 		}
 
-		// Validate URLs format
-		if strings.TrimSpace(token.WebsiteUrl) != "" {
-			if _, err := url.Parse(token.WebsiteUrl); err != nil {
-				errors = append(errors, fmt.Errorf("invalid website URL format: %v", err))
-			}
+		// Validate URLs format (all optional)
+		if err := tm.validateURL(token.WebsiteUrl, "website", false); err != nil {
+			errors = append(errors, err)
 		}
 
-		if strings.TrimSpace(token.XUrl) != "" {
-			if _, err := url.Parse(token.XUrl); err != nil {
-				errors = append(errors, fmt.Errorf("invalid X (Twitter) URL format: %v", err))
-			}
+		if err := tm.validateURL(token.XUrl, "X (Twitter)", false); err != nil {
+			errors = append(errors, err)
 		}
 
-		if strings.TrimSpace(token.DiscordUrl) != "" {
-			if _, err := url.Parse(token.DiscordUrl); err != nil {
-				errors = append(errors, fmt.Errorf("invalid Discord URL format: %v", err))
-			}
+		if err := tm.validateURL(token.DiscordUrl, "Discord", false); err != nil {
+			errors = append(errors, err)
 		}
 
-		if strings.TrimSpace(token.WhitepaperUrl) != "" {
-			if _, err := url.Parse(token.WhitepaperUrl); err != nil {
-				errors = append(errors, fmt.Errorf("invalid whitepaper URL format: %v", err))
-			}
+		if err := tm.validateURL(token.WhitepaperUrl, "whitepaper", false); err != nil {
+			errors = append(errors, err)
 		}
 
-		// Validate SVG logo URL format if provided
-		if strings.TrimSpace(token.LogoSvgUrl) != "" {
-			if _, err := url.Parse(token.LogoSvgUrl); err != nil {
-				errors = append(errors, fmt.Errorf("invalid logo SVG URL format: %v", err))
-			}
+		// Validate SVG logo URL format if provided (optional)
+		if err := tm.validateURL(token.LogoSvgUrl, "logo SVG", false); err != nil {
+			errors = append(errors, err)
 		}
 
 		// Validate token addresses
@@ -324,18 +361,14 @@ func (tm *tokenManager) validateTokenAddress(address models.TokenAddress, index 
 		errors = append(errors, fmt.Errorf("address[%d]: symbol is required", index))
 	}
 
-	// Validate logo PNG URL format if provided
-	if strings.TrimSpace(address.LogoPngUrl) != "" {
-		if _, err := url.Parse(address.LogoPngUrl); err != nil {
-			errors = append(errors, fmt.Errorf("address[%d]: invalid logo PNG URL format: %v", index, err))
-		}
+	// Validate logo PNG URL format if provided (optional)
+	if err := tm.validateURL(address.LogoPngUrl, fmt.Sprintf("address[%d] logo PNG", index), false); err != nil {
+		errors = append(errors, err)
 	}
 
-	// Validate logo SVG URL format if provided
-	if strings.TrimSpace(address.LogoSvgUrl) != "" {
-		if _, err := url.Parse(address.LogoSvgUrl); err != nil {
-			errors = append(errors, fmt.Errorf("address[%d]: invalid logo SVG URL format: %v", index, err))
-		}
+	// Validate logo SVG URL format if provided (optional)
+	if err := tm.validateURL(address.LogoSvgUrl, fmt.Sprintf("address[%d] logo SVG", index), false); err != nil {
+		errors = append(errors, err)
 	}
 
 	return errors
