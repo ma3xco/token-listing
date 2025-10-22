@@ -7,10 +7,10 @@
   "wrapped_token_uuid": "",
   "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/7278.png",
   "logo_svg_url": "",
-  "description": "Aave (AAVE) is a cryptocurrency and operates on the Ethereum platform. Aave has a current supply of 16,000,000 with 15,255,950.14297493 in circulation. The last known price of Aave is 202.67260552 USD and is down -15.08 over the last 24 hours. It is currently trading on 1170 active market(s) with $644,395,186.13 traded over the last 24 hours. More information can be found at https://aave.com/.",
+  "description": "Aave (AAVE) is a cryptocurrency and operates on the Ethereum platform. Aave has a current supply of 16,000,000 with 15,257,812.81166216 in circulation. The last known price of Aave is 219.06702737 USD and is down -5.30 over the last 24 hours. It is currently trading on 1176 active market(s) with $446,680,351.67 traded over the last 24 hours. More information can be found at https://aave.com/.",
   "coin_market_cap_id": 7278,
   "is_featured": false,
-  "order_index": 680,
+  "order_index": 620,
   "website_url": "https://aave.com/",
   "x_url": "https://twitter.com/aave",
   "discord_url": "",
@@ -19,6 +19,7 @@
   "tags": [],
   "is_scam": false,
   "is_disabled": false,
+  "is_tracking": true,
   "addresses": [
     {
       "address": "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9",

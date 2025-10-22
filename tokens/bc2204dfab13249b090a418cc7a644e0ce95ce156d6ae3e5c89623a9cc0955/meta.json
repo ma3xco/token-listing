@@ -7,10 +7,10 @@
   "wrapped_token_uuid": "",
   "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/29470.png",
   "logo_svg_url": "",
-  "description": "Ethena USDe (USDe) is a cryptocurrency and operates on the Ethereum platform. Ethena USDe has a current supply of 12,290,284,176.36745193. The last known price of Ethena USDe is 0.99939279 USD and is down -0.05 over the last 24 hours. It is currently trading on 228 active market(s) with $504,289,707.55 traded over the last 24 hours. More information can be found at https://www.ethena.fi/.",
+  "description": "Ethena USDe (USDe) is a cryptocurrency and operates on the Ethereum platform. Ethena USDe has a current supply of 11,066,770,772.60488857. The last known price of Ethena USDe is 0.99926445 USD and is down -0.03 over the last 24 hours. It is currently trading on 233 active market(s) with $344,471,641.89 traded over the last 24 hours. More information can be found at https://www.ethena.fi/.",
   "coin_market_cap_id": 29470,
   "is_featured": false,
-  "order_index": 220,
+  "order_index": 260,
   "website_url": "https://www.ethena.fi/",
   "x_url": "https://twitter.com/ethena_labs",
   "discord_url": "",
@@ -19,6 +19,7 @@
   "tags": [],
   "is_scam": false,
   "is_disabled": false,
+  "is_tracking": true,
   "addresses": [
     {
       "address": "0x4c9edd5852cd905f086c759e8383e09bff1e68b3",

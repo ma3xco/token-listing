@@ -7,7 +7,7 @@
   "wrapped_token_uuid": "",
   "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/7186.png",
   "logo_svg_url": "",
-  "description": "PancakeSwap (CAKE) is a cryptocurrency launched in 2020and operates on the Ethereum platform. PancakeSwap has a current supply of 357,886,452.64276767 with 343,042,579.80142134 in circulation. The last known price of PancakeSwap is 2.80793942 USD and is down -6.33 over the last 24 hours. It is currently trading on 1767 active market(s) with $280,088,834.09 traded over the last 24 hours. More information can be found at https://pancakeswap.finance/.",
+  "description": "PancakeSwap (CAKE) is a cryptocurrency launched in 2020and operates on the Ethereum platform. PancakeSwap has a current supply of 356,840,770.64276767 with 342,127,974.3400552 in circulation. The last known price of PancakeSwap is 2.72395202 USD and is down -4.34 over the last 24 hours. It is currently trading on 1778 active market(s) with $202,216,911.19 traded over the last 24 hours. More information can be found at https://pancakeswap.finance/.",
   "coin_market_cap_id": 7186,
   "is_featured": false,
   "order_index": 1460,
@@ -19,6 +19,7 @@
   "tags": [],
   "is_scam": false,
   "is_disabled": false,
+  "is_tracking": true,
   "addresses": [
     {
       "address": "0x152649ea73beab28c5b49b26eb48f7ead6d4c898",

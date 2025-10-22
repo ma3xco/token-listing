@@ -7,10 +7,10 @@
   "wrapped_token_uuid": "",
   "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/6719.png",
   "logo_svg_url": "",
-  "description": "The Graph (GRT) is a cryptocurrency launched in 2018and operates on the Ethereum platform. The Graph has a current supply of 11,377,702,696.817202 with 10,527,672,453.284077 in circulation. The last known price of The Graph is 0.06221988 USD and is down -5.51 over the last 24 hours. It is currently trading on 590 active market(s) with $43,197,644.54 traded over the last 24 hours. More information can be found at https://thegraph.com.",
+  "description": "The Graph (GRT) is a cryptocurrency launched in 2018and operates on the Ethereum platform. The Graph has a current supply of 11,382,344,053.127348 with 10,557,321,112.994223 in circulation. The last known price of The Graph is 0.06187632 USD and is down -7.32 over the last 24 hours. It is currently trading on 590 active market(s) with $33,913,586.83 traded over the last 24 hours. More information can be found at https://thegraph.com.",
   "coin_market_cap_id": 6719,
   "is_featured": false,
-  "order_index": 1720,
+  "order_index": 1740,
   "website_url": "https://thegraph.com",
   "x_url": "https://twitter.com/graphprotocol",
   "discord_url": "",
@@ -19,6 +19,7 @@
   "tags": [],
   "is_scam": false,
   "is_disabled": false,
+  "is_tracking": true,
   "addresses": [
     {
       "address": "0xc944e90c64b2c07662a292be6244bdf05cda44a7",

@@ -7,10 +7,10 @@
   "wrapped_token_uuid": "",
   "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/34387.png",
   "logo_svg_url": "",
-  "description": "Ripple USD (RLUSD) is a cryptocurrency and operates on the XRP Ledger platform. Ripple USD has a current supply of 840,997,012.47999817. The last known price of Ripple USD is 0.99989984 USD and is up -0.00 over the last 24 hours. It is currently trading on 52 active market(s) with $130,863,323.28 traded over the last 24 hours. More information can be found at https://ripple.com/solutions/stablecoin/.",
+  "description": "Ripple USD (RLUSD) is a cryptocurrency and operates on the XRP Ledger platform. Ripple USD has a current supply of 898,497,012.4799972. The last known price of Ripple USD is 0.99835112 USD and is down -0.16 over the last 24 hours. It is currently trading on 53 active market(s) with $96,444,028.37 traded over the last 24 hours. More information can be found at https://ripple.com/solutions/stablecoin/.",
   "coin_market_cap_id": 34387,
   "is_featured": false,
-  "order_index": 1500,
+  "order_index": 1480,
   "website_url": "https://ripple.com/solutions/stablecoin/",
   "x_url": "https://twitter.com/Ripple",
   "discord_url": "",
@@ -19,6 +19,7 @@
   "tags": [],
   "is_scam": false,
   "is_disabled": false,
+  "is_tracking": true,
   "addresses": [
     {
       "address": "0x8292bb45bf1ee4d140127049757c2e0ff06317ed",

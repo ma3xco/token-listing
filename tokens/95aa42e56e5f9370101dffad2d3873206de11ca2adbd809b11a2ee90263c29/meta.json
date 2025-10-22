@@ -7,7 +7,7 @@
   "wrapped_token_uuid": "",
   "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/8000.png",
   "logo_svg_url": "",
-  "description": "Lido DAO (LDO) is a cryptocurrency and operates on the Ethereum platform. Lido DAO has a current supply of 1,000,000,000 with 895,788,883.75924618 in circulation. The last known price of Lido DAO is 0.85812922 USD and is down -6.18 over the last 24 hours. It is currently trading on 570 active market(s) with $178,798,117.62 traded over the last 24 hours. More information can be found at https://lido.fi/.",
+  "description": "Lido DAO (LDO) is a cryptocurrency and operates on the Ethereum platform. Lido DAO has a current supply of 1,000,000,000 with 895,768,803.29332286 in circulation. The last known price of Lido DAO is 0.87505985 USD and is down -7.42 over the last 24 hours. It is currently trading on 574 active market(s) with $128,881,358.06 traded over the last 24 hours. More information can be found at https://lido.fi/.",
   "coin_market_cap_id": 8000,
   "is_featured": false,
   "order_index": 1580,
@@ -19,6 +19,7 @@
   "tags": [],
   "is_scam": false,
   "is_disabled": false,
+  "is_tracking": true,
   "addresses": [
     {
       "address": "0x5a98fcbea516cf06857215779fd812ca3bef1b32",

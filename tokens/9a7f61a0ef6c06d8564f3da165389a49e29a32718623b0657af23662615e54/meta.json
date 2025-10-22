@@ -7,7 +7,7 @@
   "wrapped_token_uuid": "",
   "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/2010.png",
   "logo_svg_url": "",
-  "description": "Cardano (ADA) is a cryptocurrency launched in 2017. Cardano has a current supply of 44,994,677,852.132893 with 35,841,169,112.957719 in circulation. The last known price of Cardano is 0.6259093 USD and is down -5.21 over the last 24 hours. It is currently trading on 1608 active market(s) with $1,862,844,903.30 traded over the last 24 hours. More information can be found at https://www.cardano.org.",
+  "description": "Cardano (ADA) is a cryptocurrency launched in 2017. Cardano has a current supply of 44,994,681,408.880766 with 35,850,699,609.68396 in circulation. The last known price of Cardano is 0.62958825 USD and is down -6.06 over the last 24 hours. It is currently trading on 1612 active market(s) with $1,046,856,245.33 traded over the last 24 hours. More information can be found at https://www.cardano.org.",
   "coin_market_cap_id": 2010,
   "is_featured": false,
   "order_index": 200,
@@ -19,6 +19,7 @@
   "tags": [],
   "is_scam": false,
   "is_disabled": false,
+  "is_tracking": true,
   "addresses": [
     {
       "address": "0x3ee2200efb3400fabb9aacf31297cbdd1d435d47",

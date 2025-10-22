@@ -7,7 +7,7 @@
   "wrapped_token_uuid": "",
   "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/29210.png",
   "logo_svg_url": "",
-  "description": "Jupiter (JUP) is a cryptocurrency launched in 2024and operates on the Solana platform. Jupiter has a current supply of 6,999,010,963.656548 with 3,165,216,666.6400003 in circulation. The last known price of Jupiter is 0.3354279 USD and is down -4.89 over the last 24 hours. It is currently trading on 756 active market(s) with $53,750,891.54 traded over the last 24 hours. More information can be found at https://jup.ag/.",
+  "description": "Jupiter (JUP) is a cryptocurrency launched in 2024and operates on the Solana platform. Jupiter has a current supply of 6,999,010,855.096706 with 3,165,216,666.6400003 in circulation. The last known price of Jupiter is 0.34788524 USD and is down -5.85 over the last 24 hours. It is currently trading on 760 active market(s) with $37,012,508.55 traded over the last 24 hours. More information can be found at https://jup.ag/.",
   "coin_market_cap_id": 29210,
   "is_featured": false,
   "order_index": 1320,
@@ -19,6 +19,7 @@
   "tags": [],
   "is_scam": false,
   "is_disabled": false,
+  "is_tracking": true,
   "addresses": [
     {
       "address": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",

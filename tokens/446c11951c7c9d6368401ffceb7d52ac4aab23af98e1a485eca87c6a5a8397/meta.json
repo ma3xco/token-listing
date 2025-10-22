@@ -7,10 +7,10 @@
   "wrapped_token_uuid": "",
   "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/36645.png",
   "logo_svg_url": "",
-  "description": "Plasma (XPL) is a cryptocurrency launched in 2025. Plasma has a current supply of 10,000,000,000 with 1,800,000,000 in circulation. The last known price of Plasma is 0.40515366 USD and is down -7.61 over the last 24 hours. It is currently trading on 203 active market(s) with $606,843,742.62 traded over the last 24 hours. More information can be found at https://www.plasma.to/.",
+  "description": "Plasma (XPL) is a cryptocurrency launched in 2025. Plasma has a current supply of 10,000,000,000 with 1,800,000,000 in circulation. The last known price of Plasma is 0.37728224 USD and is down -10.55 over the last 24 hours. It is currently trading on 209 active market(s) with $355,527,775.24 traded over the last 24 hours. More information can be found at https://www.plasma.to/.",
   "coin_market_cap_id": 36645,
   "is_featured": false,
-  "order_index": 1660,
+  "order_index": 1720,
   "website_url": "https://www.plasma.to/",
   "x_url": "https://twitter.com/Plasma",
   "discord_url": "",
@@ -19,6 +19,7 @@
   "tags": [],
   "is_scam": false,
   "is_disabled": false,
+  "is_tracking": true,
   "addresses": [
     {
       "address": "0x405fbc9004d857903bfd6b3357792d71a50726b0",

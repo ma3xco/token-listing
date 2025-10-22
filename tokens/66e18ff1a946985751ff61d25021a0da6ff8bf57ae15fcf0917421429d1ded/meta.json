@@ -7,10 +7,10 @@
   "wrapped_token_uuid": "",
   "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/21159.png",
   "logo_svg_url": "",
-  "description": "Ondo (ONDO) is a cryptocurrency launched in 2021and operates on the Ethereum platform. Ondo has a current supply of 10,000,000,000 with 3,159,107,529 in circulation. The last known price of Ondo is 0.69968764 USD and is down -6.51 over the last 24 hours. It is currently trading on 376 active market(s) with $258,280,486.58 traded over the last 24 hours. More information can be found at https://ondo.foundation/.",
+  "description": "Ondo (ONDO) is a cryptocurrency launched in 2021and operates on the Ethereum platform. Ondo has a current supply of 10,000,000,000 with 3,159,107,529 in circulation. The last known price of Ondo is 0.71011819 USD and is down -7.14 over the last 24 hours. It is currently trading on 380 active market(s) with $129,118,412.45 traded over the last 24 hours. More information can be found at https://ondo.foundation/.",
   "coin_market_cap_id": 21159,
   "is_featured": false,
-  "order_index": 860,
+  "order_index": 840,
   "website_url": "https://ondo.foundation/",
   "x_url": "https://twitter.com/OndoFoundation",
   "discord_url": "",
@@ -19,6 +19,7 @@
   "tags": [],
   "is_scam": false,
   "is_disabled": false,
+  "is_tracking": true,
   "addresses": [
     {
       "address": "0xfaba6f8e4a5e8ab82f62fe7c39859fa577269be3",

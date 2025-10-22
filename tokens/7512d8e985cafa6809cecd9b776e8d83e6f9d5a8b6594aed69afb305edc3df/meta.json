@@ -7,10 +7,10 @@
   "wrapped_token_uuid": "",
   "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/27772.png",
   "logo_svg_url": "",
-  "description": "PayPal USD (PYUSD) is a cryptocurrency launched in 2023and operates on the Ethereum platform. PayPal USD has a current supply of 2,687,752,970.935707. The last known price of PayPal USD is 0.9998278 USD and is down -0.03 over the last 24 hours. It is currently trading on 133 active market(s) with $294,034,732.59 traded over the last 24 hours. More information can be found at https://www.paypal.com/pyusd.",
+  "description": "PayPal USD (PYUSD) is a cryptocurrency launched in 2023and operates on the Ethereum platform. PayPal USD has a current supply of 2,746,530,904.625935. The last known price of PayPal USD is 0.9995404 USD and is down -0.02 over the last 24 hours. It is currently trading on 133 active market(s) with $173,855,841.54 traded over the last 24 hours. More information can be found at https://www.paypal.com/pyusd.",
   "coin_market_cap_id": 27772,
   "is_featured": false,
-  "order_index": 780,
+  "order_index": 740,
   "website_url": "https://www.paypal.com/pyusd",
   "x_url": "https://twitter.com/PayPal",
   "discord_url": "",
@@ -19,6 +19,7 @@
   "tags": [],
   "is_scam": false,
   "is_disabled": false,
+  "is_tracking": true,
   "addresses": [
     {
       "address": "0x6c3ea9036406852006290770bedfcaba0e23a0e8",

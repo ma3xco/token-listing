@@ -7,7 +7,7 @@
   "wrapped_token_uuid": "",
   "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/1958.png",
   "logo_svg_url": "",
-  "description": "TRON (TRX) is a cryptocurrency launched in 2018. TRON has a current supply of 94,663,698,987.710408 with 94,663,691,272.544708 in circulation. The last known price of TRON is 0.30919587 USD and is down -3.49 over the last 24 hours. It is currently trading on 1247 active market(s) with $1,282,353,330.87 traded over the last 24 hours. More information can be found at https://trondao.org/.",
+  "description": "TRON (TRX) is a cryptocurrency launched in 2018. TRON has a current supply of 94,664,479,298.165208 with 94,664,478,273.134308 in circulation. The last known price of TRON is 0.32001671 USD and is down -1.27 over the last 24 hours. It is currently trading on 1250 active market(s) with $1,076,631,401.14 traded over the last 24 hours. More information can be found at https://trondao.org/.",
   "coin_market_cap_id": 1958,
   "is_featured": true,
   "order_index": 160,
@@ -19,6 +19,7 @@
   "tags": [],
   "is_scam": false,
   "is_disabled": false,
+  "is_tracking": true,
   "addresses": [
     {
       "address": "0x50327c6c5a14dcade707abad2e27eb517df87ab5",

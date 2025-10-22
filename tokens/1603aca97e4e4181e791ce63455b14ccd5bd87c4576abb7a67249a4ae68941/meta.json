@@ -7,10 +7,10 @@
   "wrapped_token_uuid": "",
   "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/36507.png",
   "logo_svg_url": "",
-  "description": "Pump.fun (PUMP) is a cryptocurrency and operates on the Solana platform. Pump.fun has a current supply of 1,000,000,000,000 with 354,000,000,000 in circulation. The last known price of Pump.fun is 0.00351222 USD and is down -3.58 over the last 24 hours. It is currently trading on 283 active market(s) with $353,696,907.43 traded over the last 24 hours. More information can be found at https://pump.fun/.",
+  "description": "Pump.fun (PUMP) is a cryptocurrency and operates on the Solana platform. Pump.fun has a current supply of 1,000,000,000,000 with 354,000,000,000 in circulation. The last known price of Pump.fun is 0.00360799 USD and is down -10.21 over the last 24 hours. It is currently trading on 288 active market(s) with $269,462,662.81 traded over the last 24 hours. More information can be found at https://pump.fun/.",
   "coin_market_cap_id": 36507,
   "is_featured": false,
-  "order_index": 1220,
+  "order_index": 1200,
   "website_url": "https://pump.fun/",
   "x_url": "https://twitter.com/pumpdotfun",
   "discord_url": "",
@@ -19,6 +19,7 @@
   "tags": [],
   "is_scam": false,
   "is_disabled": false,
+  "is_tracking": true,
   "addresses": [
     {
       "address": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",

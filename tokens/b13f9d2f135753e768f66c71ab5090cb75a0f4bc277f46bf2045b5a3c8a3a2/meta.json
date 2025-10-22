@@ -7,7 +7,7 @@
   "wrapped_token_uuid": "",
   "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/3635.png",
   "logo_svg_url": "",
-  "description": "Cronos (CRO) is a cryptocurrency launched in 2021. Cronos has a current supply of 98,084,627,300.65242 with 36,051,293,502.13314 in circulation. The last known price of Cronos is 0.14217858 USD and is down -7.15 over the last 24 hours. It is currently trading on 329 active market(s) with $64,604,794.26 traded over the last 24 hours. More information can be found at https://cronos.org/.",
+  "description": "Cronos (CRO) is a cryptocurrency launched in 2021. Cronos has a current supply of 98,097,483,459.19075 with 36,064,149,505.26575 in circulation. The last known price of Cronos is 0.14162138 USD and is down -5.67 over the last 24 hours. It is currently trading on 331 active market(s) with $30,940,167.90 traded over the last 24 hours. More information can be found at https://cronos.org/.",
   "coin_market_cap_id": 3635,
   "is_featured": false,
   "order_index": 520,
@@ -19,6 +19,7 @@
   "tags": [],
   "is_scam": false,
   "is_disabled": false,
+  "is_tracking": true,
   "addresses": [
     {
       "address": "0xa0b73e1ff0b80914ab6fe0444e65848c4c34450b",

@@ -7,10 +7,10 @@
   "wrapped_token_uuid": "",
   "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/3897.png",
   "logo_svg_url": "",
-  "description": "OKB (OKB) is a cryptocurrency and operates on the Ethereum platform. OKB has a current supply of 21,000,000. The last known price of OKB is 163.38348525 USD and is down -5.81 over the last 24 hours. It is currently trading on 191 active market(s) with $177,652,477.10 traded over the last 24 hours. More information can be found at https://www.okx.com/.",
+  "description": "OKB (OKB) is a cryptocurrency and operates on the Ethereum platform. OKB has a current supply of 21,000,000. The last known price of OKB is 159.01045223 USD and is down -4.41 over the last 24 hours. It is currently trading on 192 active market(s) with $93,306,482.89 traded over the last 24 hours. More information can be found at https://www.okx.com/.",
   "coin_market_cap_id": 3897,
   "is_featured": false,
-  "order_index": 620,
+  "order_index": 640,
   "website_url": "https://www.okx.com/",
   "x_url": "https://twitter.com/okx",
   "discord_url": "",
@@ -19,6 +19,7 @@
   "tags": [],
   "is_scam": false,
   "is_disabled": false,
+  "is_tracking": true,
   "addresses": [
     {
       "address": "0x75231f58b43240c9718dd58b4967c5114342a86c",

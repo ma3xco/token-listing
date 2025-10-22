@@ -7,10 +7,10 @@
   "wrapped_token_uuid": "",
   "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/7226.png",
   "logo_svg_url": "",
-  "description": "Injective (INJ) is a cryptocurrency and operates on the Ethereum platform. Injective has a current supply of 100,000,000 with 99,970,935.41 in circulation. The last known price of Injective is 8.30159929 USD and is down -6.87 over the last 24 hours. It is currently trading on 535 active market(s) with $131,818,974.55 traded over the last 24 hours. More information can be found at https://injective.com.",
+  "description": "Injective (INJ) is a cryptocurrency and operates on the Ethereum platform. Injective has a current supply of 100,000,000 with 99,970,935.41 in circulation. The last known price of Injective is 8.31581976 USD and is down -7.43 over the last 24 hours. It is currently trading on 536 active market(s) with $99,738,931.97 traded over the last 24 hours. More information can be found at https://injective.com.",
   "coin_market_cap_id": 7226,
   "is_featured": false,
-  "order_index": 1520,
+  "order_index": 1540,
   "website_url": "https://injective.com",
   "x_url": "https://twitter.com/Injective_",
   "discord_url": "",
@@ -19,6 +19,7 @@
   "tags": [],
   "is_scam": false,
   "is_disabled": false,
+  "is_tracking": true,
   "addresses": [
     {
       "address": "0xe28b3b32b6c345a34ff64674606124dd5aceca30",

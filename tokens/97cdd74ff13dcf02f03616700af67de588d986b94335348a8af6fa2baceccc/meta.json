@@ -7,7 +7,7 @@
   "wrapped_token_uuid": "",
   "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/3794.png",
   "logo_svg_url": "",
-  "description": "Cosmos (ATOM) is a cryptocurrency . Cosmos has a current supply of 473,353,380. The last known price of Cosmos is 3.17492807 USD and is down -4.85 over the last 24 hours. It is currently trading on 924 active market(s) with $137,941,223.86 traded over the last 24 hours. More information can be found at https://cosmos.network/.",
+  "description": "Cosmos (ATOM) is a cryptocurrency . Cosmos has a current supply of 474,148,200. The last known price of Cosmos is 3.13367014 USD and is down -5.60 over the last 24 hours. It is currently trading on 926 active market(s) with $108,019,751.41 traded over the last 24 hours. More information can be found at https://cosmos.network/.",
   "coin_market_cap_id": 3794,
   "is_featured": false,
   "order_index": 1060,
@@ -19,6 +19,7 @@
   "tags": [],
   "is_scam": false,
   "is_disabled": false,
+  "is_tracking": true,
   "addresses": [
     {
       "address": "0x0eb3a705fc54725037cc9e008bdede697f62f335",

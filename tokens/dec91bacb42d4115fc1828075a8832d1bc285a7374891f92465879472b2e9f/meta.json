@@ -7,10 +7,10 @@
   "wrapped_token_uuid": "",
   "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/1975.png",
   "logo_svg_url": "",
-  "description": "Chainlink (LINK) is a cryptocurrency launched in 2017and operates on the Ethereum platform. Chainlink has a current supply of 1,000,000,000 with 678,099,970.45258671 in circulation. The last known price of Chainlink is 16.49366189 USD and is down -8.12 over the last 24 hours. It is currently trading on 2126 active market(s) with $1,362,480,778.91 traded over the last 24 hours. More information can be found at https://chain.link/.",
+  "description": "Chainlink (LINK) is a cryptocurrency launched in 2017and operates on the Ethereum platform. Chainlink has a current supply of 1,000,000,000 with 678,099,970.45258671 in circulation. The last known price of Chainlink is 17.25315562 USD and is down -5.72 over the last 24 hours. It is currently trading on 2132 active market(s) with $957,813,049.44 traded over the last 24 hours. More information can be found at https://chain.link/.",
   "coin_market_cap_id": 1975,
   "is_featured": false,
-  "order_index": 260,
+  "order_index": 240,
   "website_url": "https://chain.link/",
   "x_url": "https://twitter.com/Chainlink",
   "discord_url": "",
@@ -19,6 +19,7 @@
   "tags": [],
   "is_scam": false,
   "is_disabled": false,
+  "is_tracking": true,
   "addresses": [
     {
       "address": "0x514910771af9ca656af840dff83e8264ecf986ca",

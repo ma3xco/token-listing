@@ -7,7 +7,7 @@
   "wrapped_token_uuid": "",
   "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/8916.png",
   "logo_svg_url": "",
-  "description": "Internet Computer (ICP) is a cryptocurrency launched in 2021. Internet Computer has a current supply of 539,243,022.4596283. The last known price of Internet Computer is 2.92520458 USD and is down -10.75 over the last 24 hours. It is currently trading on 368 active market(s) with $135,502,647.96 traded over the last 24 hours. More information can be found at https://internetcomputer.org/.",
+  "description": "Internet Computer (ICP) is a cryptocurrency launched in 2021. Internet Computer has a current supply of 539,299,082.42285391. The last known price of Internet Computer is 2.97131534 USD and is down -7.88 over the last 24 hours. It is currently trading on 369 active market(s) with $78,606,462.61 traded over the last 24 hours. More information can be found at https://internetcomputer.org/.",
   "coin_market_cap_id": 8916,
   "is_featured": false,
   "order_index": 1020,
@@ -19,6 +19,7 @@
   "tags": [],
   "is_scam": false,
   "is_disabled": false,
+  "is_tracking": true,
   "addresses": [
     {
       "address": "0x00f3c42833c3170159af4e92dbb451fb3f708917",

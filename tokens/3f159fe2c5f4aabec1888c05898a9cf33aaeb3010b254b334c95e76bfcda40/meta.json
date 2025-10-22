@@ -7,10 +7,10 @@
   "wrapped_token_uuid": "",
   "logo_png_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/34466.png",
   "logo_svg_url": "",
-  "description": "Pudgy Penguins (PENGU) is a cryptocurrency launched in 2024and operates on the Solana platform. Pudgy Penguins has a current supply of 88,888,888,888 with 62,860,396,090.04 in circulation. The last known price of Pudgy Penguins is 0.02089917 USD and is down -8.06 over the last 24 hours. It is currently trading on 428 active market(s) with $376,019,019.18 traded over the last 24 hours. More information can be found at https://www.pengu.pudgypenguins.com.",
+  "description": "Pudgy Penguins (PENGU) is a cryptocurrency launched in 2024and operates on the Solana platform. Pudgy Penguins has a current supply of 88,888,888,888 with 62,860,396,090.04 in circulation. The last known price of Pudgy Penguins is 0.02063626 USD and is down -10.17 over the last 24 hours. It is currently trading on 435 active market(s) with $278,795,299.05 traded over the last 24 hours. More information can be found at https://www.pengu.pudgypenguins.com.",
   "coin_market_cap_id": 34466,
   "is_featured": false,
-  "order_index": 1160,
+  "order_index": 1180,
   "website_url": "https://www.pengu.pudgypenguins.com",
   "x_url": "https://twitter.com/pudgypenguins",
   "discord_url": "",
@@ -19,6 +19,7 @@
   "tags": [],
   "is_scam": false,
   "is_disabled": false,
+  "is_tracking": true,
   "addresses": [
     {
       "address": "2zMMhcVQEXDtdE6vsFS7S7D5oUodfJHE8vd1gnBouauv",
