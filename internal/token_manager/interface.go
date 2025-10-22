@@ -23,6 +23,17 @@ type ITokenManager interface {
 	// the map key is the token uid, the value is the errors.
 	ValidateTokens(ctx context.Context) map[string][]error
 
+	// ValidateTokensForFork validates tokens with fork-specific rules.
+	// Fork tokens must have:
+	// - order_index >= 100000
+	// - is_featured = false
+	// - has_gas_sponsored = false
+	// - has_blue_checkmark = false
+	// - is_native = false
+	// it returns an error if any.
+	// the map key is the token uid, the value is the errors.
+	ValidateTokensForFork(ctx context.Context) map[string][]error
+
 	// BuildTokens builds the tokens in the memory.into ./dist/***
 	// the build assets contains
 	// - tokens.json (all tokens list)
