@@ -265,6 +265,59 @@ func (tm *tokenManager) ValidateTokensForFork(ctx context.Context) map[string][]
 	return validationErrors
 }
 
+// ValidateTokensForForkByUids validates specific tokens with fork-specific rules.
+// It only validates the tokens specified in the tokenUids slice.
+// Fork tokens must have:
+// - order_index >= 100000
+// - is_featured = false
+// - has_gas_sponsored = false
+// - has_blue_checkmark = false (for all addresses)
+// - is_native = false (for all addresses)
+func (tm *tokenManager) ValidateTokensForForkByUids(ctx context.Context, tokenUids []string) map[string][]error {
+	validationErrors := make(map[string][]error)
+
+	for _, tokenUid := range tokenUids {
+		token, exists := tm.tokens[tokenUid]
+		if !exists {
+			validationErrors[tokenUid] = []error{fmt.Errorf("token %s not found", tokenUid)}
+			continue
+		}
+
+		var errors []error
+
+		// Validate order_index >= 100000
+		if token.OrderIndex < 100000 {
+			errors = append(errors, fmt.Errorf("fork tokens must have order_index >= 100000, got: %d", token.OrderIndex))
+		}
+
+		// Validate is_featured = false
+		if token.IsFeatured {
+			errors = append(errors, fmt.Errorf("fork tokens must have is_featured = false"))
+		}
+
+		// Validate has_gas_sponsored = false
+		if token.HasGasSponsored {
+			errors = append(errors, fmt.Errorf("fork tokens must have has_gas_sponsored = false"))
+		}
+
+		// Validate all addresses have has_blue_checkmark = false and is_native = false
+		for i, address := range token.Addresses {
+			if address.HasBlueCheckmark {
+				errors = append(errors, fmt.Errorf("fork token addresses must have has_blue_checkmark = false (address[%d])", i))
+			}
+			if address.IsNative {
+				errors = append(errors, fmt.Errorf("fork token addresses must have is_native = false (address[%d])", i))
+			}
+		}
+
+		if len(errors) > 0 {
+			validationErrors[tokenUid] = errors
+		}
+	}
+
+	return validationErrors
+}
+
 // validateLogoFile validates that the logo file exists and is a 64x64 PNG
 func (tm *tokenManager) validateLogoFile(logoPath string) error {
 	// Check if file exists
