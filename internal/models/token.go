@@ -77,6 +77,9 @@ type Token struct {
 	// the disabled token will not be displayed in the wallet.
 	IsDisabled bool `json:"is_disabled"`
 
+	// Whether the token's price is tracking by the Matrix Wallet or not.
+	IsTracking bool `json:"is_tracking"`
+
 	// the addresses of the token on the networks.
 	Addresses []TokenAddress `json:"addresses"`
 }
