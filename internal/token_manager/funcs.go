@@ -10,6 +10,7 @@ import (
 	"os"
 	"path/filepath"
 	"regexp"
+	"sort"
 	"strings"
 
 	"github.com/ma3xco/token-listing/internal/models"
@@ -498,6 +499,10 @@ func (tm *tokenManager) BuildTokens(ctx context.Context) error {
 		for i := range tm.tokens {
 			tokens = append(tokens, *tm.tokens[i])
 		}
+		// sort the tokens by order_index
+		sort.SliceStable(tokens, func(i, j int) bool {
+			return tokens[i].OrderIndex < tokens[j].OrderIndex
+		})
 		bytes, err := json.Marshal(tokens)
 		if err != nil {
 			return err
@@ -513,6 +518,9 @@ func (tm *tokenManager) BuildTokens(ctx context.Context) error {
 		for i := range tm.featuredTokens {
 			tokens = append(tokens, *tm.tokens[i])
 		}
+		sort.SliceStable(tokens, func(i, j int) bool {
+			return tokens[i].OrderIndex < tokens[j].OrderIndex
+		})
 		bytes, err := json.Marshal(tokens)
 		if err != nil {
 			return err
