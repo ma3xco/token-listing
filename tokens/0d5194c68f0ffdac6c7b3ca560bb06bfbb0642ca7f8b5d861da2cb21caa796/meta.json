@@ -70,11 +70,11 @@
       "logo_svg_url": ""
     },
     {
-      "address": "0x9e5aac1ba1a2e6aed6b32689dfcf62a509ca96f3",
+      "address": "TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t",
       "token_uid": "0d5194c68f0ffdac6c7b3ca560bb06bfbb0642ca7f8b5d861da2cb21caa796",
-      "network_id": 3,
+      "network_id": 5,
       "is_verified": true,
-      "decimals": 0,
+      "decimals": 6,
       "is_native": false,
       "token_type": "ERC20",
       "upgradeable": false,
